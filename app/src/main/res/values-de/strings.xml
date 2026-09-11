@@ -129,6 +129,7 @@
     <string name="alarm_ring_default_label">Alarm</string>
     <string name="snooze">Schlummern</string>
     <string name="dismiss">Verwerfen</string>
+    <string name="snoozed_for_minutes">%1$d Minuten geschlummert</string>
 
     <string name="notif_tap_to_open">Tippen, um Ihren Alarm zu öffnen</string>
     <string name="notif_timer_finished_title">%1$s beendet</string>
@@ -140,4 +141,6 @@
     <string name="channel_alarm_desc">Benachrichtigungen bei Alarmklingeln</string>
     <string name="channel_timer_name">Timer</string>
     <string name="channel_timer_desc">Countdown laufender Timer</string>
+    <string name="channel_upcoming_name">Bevorstehender Alarm</string>
+    <string name="channel_upcoming_desc">Eine dezente Erinnerung an deinen nächsten geplanten Alarm</string>
 </resources>

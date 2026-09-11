@@ -129,6 +129,7 @@
     <string name="alarm_ring_default_label">闹钟</string>
     <string name="snooze">稍后提醒</string>
     <string name="dismiss">关闭</string>
+    <string name="snoozed_for_minutes">已延迟 %1$d 分钟</string>
 
     <string name="notif_tap_to_open">点击打开您的闹钟</string>
     <string name="notif_timer_finished_title">%1$s 已完成</string>
@@ -140,4 +141,6 @@
     <string name="channel_alarm_desc">闹钟响铃通知</string>
     <string name="channel_timer_name">计时器</string>
     <string name="channel_timer_desc">正在运行的计时器倒计时</string>
+    <string name="channel_upcoming_name">即将响起的闹钟</string>
+    <string name="channel_upcoming_desc">对下一个已设置闹钟的静默提醒</string>
 </resources>

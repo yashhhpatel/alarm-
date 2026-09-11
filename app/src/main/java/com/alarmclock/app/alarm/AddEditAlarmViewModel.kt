@@ -50,7 +50,7 @@ class AddEditAlarmViewModel(
                         label = alarm.label,
                         soundName = alarm.soundName,
                         soundUri = alarm.soundUri,
-                        soundEnabled = true,
+                        soundEnabled = alarm.soundEnabled,
                         vibrate = alarm.vibrate,
                         loaded = true
                     )
@@ -80,6 +80,7 @@ class AddEditAlarmViewModel(
                 enabled = true,
                 soundUri = f.soundUri,
                 soundName = f.soundName,
+                soundEnabled = f.soundEnabled,
                 vibrate = f.vibrate
             )
             val newId = repository.upsert(entity)

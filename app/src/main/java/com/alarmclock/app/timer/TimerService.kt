@@ -41,6 +41,9 @@ class TimerService : Service() {
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
+        // Must be called synchronously within onStartCommand to satisfy the foreground-service
+        // contract; the mutation below may complete later on a background dispatch.
+        ensureForeground()
         when (intent?.action) {
             ACTION_START -> {
                 val title = intent.getStringExtra(EXTRA_TITLE) ?: getString(R.string.default_timer_title)
@@ -56,24 +59,26 @@ class TimerService : Service() {
                             createdAt = System.currentTimeMillis()
                         )
                     )
-                    ensureForeground()
+                    // Only start the ticker once the new timer is actually persisted, otherwise
+                    // the ticker's first tick() can race the insert, see an empty active list,
+                    // and immediately stop the service before the timer ever gets a chance to run.
+                    startTicker()
                 }
             }
             ACTION_PAUSE -> {
                 val id = intent.getLongExtra(EXTRA_ID, -1L)
-                scope.launch { pauseTimer(id) }
+                scope.launch { pauseTimer(id); startTicker() }
             }
             ACTION_RESUME -> {
                 val id = intent.getLongExtra(EXTRA_ID, -1L)
-                scope.launch { resumeTimer(id) }
+                scope.launch { resumeTimer(id); startTicker() }
             }
             ACTION_CANCEL -> {
                 val id = intent.getLongExtra(EXTRA_ID, -1L)
                 scope.launch { cancelTimer(id) }
             }
+            else -> startTicker()
         }
-        ensureForeground()
-        startTicker()
         return START_STICKY
     }
 

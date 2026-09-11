@@ -129,6 +129,7 @@
     <string name="alarm_ring_default_label">Alarme</string>
     <string name="snooze">Répéter</string>
     <string name="dismiss">Fermer</string>
+    <string name="snoozed_for_minutes">Répété dans %1$d minutes</string>
 
     <string name="notif_tap_to_open">Appuyez pour ouvrir votre alarme</string>
     <string name="notif_timer_finished_title">%1$s terminé</string>
@@ -140,4 +141,6 @@
     <string name="channel_alarm_desc">Notifications de sonnerie d\'alarme</string>
     <string name="channel_timer_name">Minuteurs</string>
     <string name="channel_timer_desc">Comptes à rebours des minuteries en cours</string>
+    <string name="channel_upcoming_name">Alarme à venir</string>
+    <string name="channel_upcoming_desc">Un rappel discret de votre prochaine alarme programmée</string>
 </resources>

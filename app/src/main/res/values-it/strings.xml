@@ -129,6 +129,7 @@
     <string name="alarm_ring_default_label">Sveglia</string>
     <string name="snooze">Posticipa</string>
     <string name="dismiss">Chiudi</string>
+    <string name="snoozed_for_minutes">Posticipato di %1$d minuti</string>
 
     <string name="notif_tap_to_open">Tocca per aprire la tua sveglia</string>
     <string name="notif_timer_finished_title">%1$s terminato</string>
@@ -140,4 +141,6 @@
     <string name="channel_alarm_desc">Notifiche suoneria sveglia</string>
     <string name="channel_timer_name">Timer</string>
     <string name="channel_timer_desc">Conto alla rovescia dei timer in esecuzione</string>
+    <string name="channel_upcoming_name">Sveglia imminente</string>
+    <string name="channel_upcoming_desc">Un discreto promemoria della tua prossima sveglia programmata</string>
 </resources>

@@ -129,6 +129,7 @@
     <string name="alarm_ring_default_label">Alarma</string>
     <string name="snooze">Posponer</string>
     <string name="dismiss">Descartar</string>
+    <string name="snoozed_for_minutes">Pospuesto %1$d minutos</string>
 
     <string name="notif_tap_to_open">Toca para abrir tu alarma</string>
     <string name="notif_timer_finished_title">%1$s finalizado</string>
@@ -140,4 +141,6 @@
     <string name="channel_alarm_desc">Notificaciones de sonido de alarma</string>
     <string name="channel_timer_name">Temporizadores</string>
     <string name="channel_timer_desc">Cuenta regresiva de temporizadores en curso</string>
+    <string name="channel_upcoming_name">Próxima alarma</string>
+    <string name="channel_upcoming_desc">Un recordatorio discreto de tu próxima alarma programada</string>
 </resources>

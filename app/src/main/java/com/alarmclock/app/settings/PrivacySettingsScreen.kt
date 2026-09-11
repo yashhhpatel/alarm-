@@ -27,7 +27,7 @@ import com.alarmclock.app.common.util.rememberAppViewModel
 
 @Composable
 fun PrivacySettingsScreen(onBack: () -> Unit) {
-    val viewModel = rememberAppViewModel { app -> SettingsViewModel(app.settingsDataStore) }
+    val viewModel = rememberAppViewModel { app -> SettingsViewModel(app.settingsDataStore, com.alarmclock.app.alarm.AlarmScheduler(app)) }
     val settings by viewModel.settings.collectAsState()
 
     Scaffold(

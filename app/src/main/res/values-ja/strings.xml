@@ -129,6 +129,7 @@
     <string name="alarm_ring_default_label">アラーム</string>
     <string name="snooze">スヌーズ</string>
     <string name="dismiss">解除</string>
+    <string name="snoozed_for_minutes">%1$d分間スヌーズしました</string>
 
     <string name="notif_tap_to_open">タップしてアラームを開く</string>
     <string name="notif_timer_finished_title">%1$s が終了しました</string>
@@ -140,4 +141,6 @@
     <string name="channel_alarm_desc">アラーム鳴動通知</string>
     <string name="channel_timer_name">タイマー</string>
     <string name="channel_timer_desc">動作中のタイマーのカウントダウン</string>
+    <string name="channel_upcoming_name">次のアラーム</string>
+    <string name="channel_upcoming_desc">次に予定されているアラームの静かなリマインダー</string>
 </resources>

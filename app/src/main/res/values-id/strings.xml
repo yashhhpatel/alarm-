@@ -129,6 +129,7 @@
     <string name="alarm_ring_default_label">Alarm</string>
     <string name="snooze">Tunda</string>
     <string name="dismiss">Tutup</string>
+    <string name="snoozed_for_minutes">Ditunda %1$d menit</string>
 
     <string name="notif_tap_to_open">Ketuk untuk membuka alarm Anda</string>
     <string name="notif_timer_finished_title">%1$s selesai</string>
@@ -140,4 +141,6 @@
     <string name="channel_alarm_desc">Notifikasi bunyi alarm</string>
     <string name="channel_timer_name">Timer</string>
     <string name="channel_timer_desc">Hitung mundur timer yang sedang berjalan</string>
+    <string name="channel_upcoming_name">Alarm mendatang</string>
+    <string name="channel_upcoming_desc">Pengingat tenang untuk alarm terjadwal berikutnya</string>
 </resources>

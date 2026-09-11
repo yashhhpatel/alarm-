@@ -129,6 +129,7 @@
     <string name="alarm_ring_default_label">Alarm</string>
     <string name="snooze">Ertele</string>
     <string name="dismiss">Kapat</string>
+    <string name="snoozed_for_minutes">%1$d dakika ertelendi</string>
 
     <string name="notif_tap_to_open">Alarmınızı açmak için dokunun</string>
     <string name="notif_timer_finished_title">%1$s tamamlandı</string>
@@ -140,4 +141,6 @@
     <string name="channel_alarm_desc">Alarm çalma bildirimleri</string>
     <string name="channel_timer_name">Zamanlayıcılar</string>
     <string name="channel_timer_desc">Çalışan zamanlayıcıların geri sayımı</string>
+    <string name="channel_upcoming_name">Yaklaşan alarm</string>
+    <string name="channel_upcoming_desc">Bir sonraki planlı alarmınız için sessiz bir hatırlatma</string>
 </resources>

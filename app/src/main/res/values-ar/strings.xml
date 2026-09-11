@@ -129,6 +129,7 @@
     <string name="alarm_ring_default_label">منبه</string>
     <string name="snooze">غفوة</string>
     <string name="dismiss">إغلاق</string>
+    <string name="snoozed_for_minutes">تم التأجيل %1$d دقائق</string>
 
     <string name="notif_tap_to_open">اضغط لفتح منبهك</string>
     <string name="notif_timer_finished_title">انتهى %1$s</string>
@@ -140,4 +141,6 @@
     <string name="channel_alarm_desc">إشعارات رنين المنبه</string>
     <string name="channel_timer_name">المؤقتات</string>
     <string name="channel_timer_desc">العد التنازلي للمؤقتات النشطة</string>
+    <string name="channel_upcoming_name">المنبه القادم</string>
+    <string name="channel_upcoming_desc">تذكير هادئ بمنبهك المجدول التالي</string>
 </resources>

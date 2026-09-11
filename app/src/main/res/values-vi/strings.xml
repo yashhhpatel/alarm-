@@ -129,6 +129,7 @@
     <string name="alarm_ring_default_label">Báo thức</string>
     <string name="snooze">Báo lại</string>
     <string name="dismiss">Tắt</string>
+    <string name="snoozed_for_minutes">Đã báo lại sau %1$d phút</string>
 
     <string name="notif_tap_to_open">Nhấn để mở báo thức của bạn</string>
     <string name="notif_timer_finished_title">%1$s đã hoàn thành</string>
@@ -140,4 +141,6 @@
     <string name="channel_alarm_desc">Thông báo chuông báo thức</string>
     <string name="channel_timer_name">Hẹn giờ</string>
     <string name="channel_timer_desc">Đếm ngược của hẹn giờ đang chạy</string>
+    <string name="channel_upcoming_name">Báo thức sắp tới</string>
+    <string name="channel_upcoming_desc">Lời nhắc nhẹ nhàng về báo thức đã lên lịch tiếp theo của bạn</string>
 </resources>

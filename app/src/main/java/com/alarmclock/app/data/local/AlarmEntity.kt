@@ -17,6 +17,7 @@ data class AlarmEntity(
     val enabled: Boolean,
     val soundUri: String?,
     val soundName: String,
+    val soundEnabled: Boolean = true,
     val vibrate: Boolean,
     val vibrationPattern: String = "Chime tone"
 )

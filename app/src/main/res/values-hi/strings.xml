@@ -129,6 +129,7 @@
     <string name="alarm_ring_default_label">अलार्म</string>
     <string name="snooze">स्नूज़</string>
     <string name="dismiss">खारिज करें</string>
+    <string name="snoozed_for_minutes">%1$d मिनट के लिए स्नूज़ किया गया</string>
 
     <string name="notif_tap_to_open">अपना अलार्म खोलने के लिए टैप करें</string>
     <string name="notif_timer_finished_title">%1$s पूरा हुआ</string>
@@ -140,4 +141,6 @@
     <string name="channel_alarm_desc">अलार्म बजने की सूचनाएं</string>
     <string name="channel_timer_name">टाइमर</string>
     <string name="channel_timer_desc">चल रहे टाइमर की उलटी गिनती</string>
+    <string name="channel_upcoming_name">आगामी अलार्म</string>
+    <string name="channel_upcoming_desc">आपके अगले निर्धारित अलार्म की एक शांत याद दिलाना</string>
 </resources>

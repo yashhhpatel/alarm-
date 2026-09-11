@@ -129,6 +129,7 @@
     <string name="alarm_ring_default_label">알람</string>
     <string name="snooze">다시 알림</string>
     <string name="dismiss">해제</string>
+    <string name="snoozed_for_minutes">%1$d분 동안 다시 알림</string>
 
     <string name="notif_tap_to_open">눌러서 알람 열기</string>
     <string name="notif_timer_finished_title">%1$s 완료</string>
@@ -140,4 +141,6 @@
     <string name="channel_alarm_desc">알람 울림 알림</string>
     <string name="channel_timer_name">타이머</string>
     <string name="channel_timer_desc">실행 중인 타이머 카운트다운</string>
+    <string name="channel_upcoming_name">다가오는 알람</string>
+    <string name="channel_upcoming_desc">다음 예약된 알람에 대한 조용한 알림</string>
 </resources>

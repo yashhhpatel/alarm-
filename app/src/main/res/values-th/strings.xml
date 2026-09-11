@@ -129,6 +129,7 @@
     <string name="alarm_ring_default_label">นาฬิกาปลุก</string>
     <string name="snooze">เลื่อนปลุก</string>
     <string name="dismiss">ปิด</string>
+    <string name="snoozed_for_minutes">เลื่อนไป %1$d นาที</string>
 
     <string name="notif_tap_to_open">แตะเพื่อเปิดการปลุกของคุณ</string>
     <string name="notif_timer_finished_title">%1$s เสร็จสิ้น</string>
@@ -140,4 +141,6 @@
     <string name="channel_alarm_desc">การแจ้งเตือนเสียงปลุก</string>
     <string name="channel_timer_name">ตัวจับเวลา</string>
     <string name="channel_timer_desc">การนับถอยหลังของตัวจับเวลาที่กำลังทำงาน</string>
+    <string name="channel_upcoming_name">การปลุกที่จะมาถึง</string>
+    <string name="channel_upcoming_desc">การเตือนแบบเงียบ ๆ เกี่ยวกับการปลุกที่ตั้งไว้ครั้งถัดไปของคุณ</string>
 </resources>

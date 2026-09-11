@@ -28,7 +28,7 @@ class AlarmReceiver : BroadcastReceiver() {
                 val alarm = app.alarmRepository.getById(alarmId) ?: return@launch
                 if (!alarm.enabled) return@launch
 
-                launchRingUi(context, alarmId, alarm.label)
+                launchRingUi(context, alarmId, alarm.label, alarm.soundUri, alarm.soundEnabled, alarm.vibrate)
 
                 if (AlarmTimeUtils.repeatsOnAnyDay(alarm.repeatDays)) {
                     AlarmScheduler(context).schedule(alarm)
@@ -41,11 +41,21 @@ class AlarmReceiver : BroadcastReceiver() {
         }
     }
 
-    private fun launchRingUi(context: Context, alarmId: Long, label: String) {
+    private fun launchRingUi(
+        context: Context,
+        alarmId: Long,
+        label: String,
+        soundUri: String?,
+        soundEnabled: Boolean,
+        vibrate: Boolean
+    ) {
         val fullScreenIntent = Intent(context, AlarmRingActivity::class.java).apply {
             addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
             putExtra(AlarmScheduler.EXTRA_ALARM_ID, alarmId)
             putExtra(EXTRA_LABEL, label)
+            putExtra(EXTRA_SOUND_URI, soundUri)
+            putExtra(EXTRA_SOUND_ENABLED, soundEnabled)
+            putExtra(EXTRA_VIBRATE, vibrate)
         }
         val fullScreenPendingIntent = PendingIntent.getActivity(
             context,
@@ -74,5 +84,8 @@ class AlarmReceiver : BroadcastReceiver() {
 
     companion object {
         const val EXTRA_LABEL = "extra_label"
+        const val EXTRA_SOUND_URI = "extra_sound_uri"
+        const val EXTRA_SOUND_ENABLED = "extra_sound_enabled"
+        const val EXTRA_VIBRATE = "extra_vibrate"
     }
 }

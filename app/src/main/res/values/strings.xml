@@ -143,6 +143,7 @@
     <string name="alarm_ring_default_label">Alarm</string>
     <string name="snooze">Snooze</string>
     <string name="dismiss">Dismiss</string>
+    <string name="snoozed_for_minutes">Snoozed for %1$d minutes</string>
 
     <!-- Notifications -->
     <string name="notif_tap_to_open">Tap to open your alarm</string>
@@ -155,4 +156,6 @@
     <string name="channel_alarm_desc">Alarm ringing notifications</string>
     <string name="channel_timer_name">Timers</string>
     <string name="channel_timer_desc">Running timer countdowns</string>
+    <string name="channel_upcoming_name">Upcoming alarm</string>
+    <string name="channel_upcoming_desc">A quiet reminder of your next scheduled alarm</string>
 </resources>

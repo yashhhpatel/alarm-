@@ -11,6 +11,7 @@ import android.os.Bundle
 import android.os.VibrationEffect
 import android.os.Vibrator
 import android.os.VibratorManager
+import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.runtime.collectAsState
@@ -22,6 +23,8 @@ import com.alarmclock.app.theme.AlarmClockTheme
 import com.alarmclock.app.theme.AppThemeMode
 import android.content.Context
 import android.media.MediaPlayer
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.runBlocking
 
 class AlarmRingActivity : ComponentActivity() {
 
@@ -39,8 +42,11 @@ class AlarmRingActivity : ComponentActivity() {
 
         alarmId = intent.getLongExtra(AlarmScheduler.EXTRA_ALARM_ID, -1L)
         val label = intent.getStringExtra(AlarmReceiver.EXTRA_LABEL).orEmpty()
+        val soundUri = intent.getStringExtra(AlarmReceiver.EXTRA_SOUND_URI)
+        val soundEnabled = intent.getBooleanExtra(AlarmReceiver.EXTRA_SOUND_ENABLED, true)
+        val vibrate = intent.getBooleanExtra(AlarmReceiver.EXTRA_VIBRATE, true)
 
-        startRinging()
+        startRinging(soundUri, soundEnabled, vibrate)
 
         setContent {
             val app = application as AlarmClockApp
@@ -72,41 +78,65 @@ class AlarmRingActivity : ComponentActivity() {
         }
     }
 
-    private fun startRinging() {
-        val uri: Uri = RingtoneManager.getActualDefaultRingtoneUri(this, RingtoneManager.TYPE_ALARM)
-            ?: RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM)
-        mediaPlayer = MediaPlayer().apply {
-            setAudioAttributes(
-                AudioAttributes.Builder()
-                    .setUsage(AudioAttributes.USAGE_ALARM)
-                    .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
-                    .build()
-            )
-            isLooping = true
-            try {
-                setDataSource(this@AlarmRingActivity, uri)
-                prepare()
-                start()
-            } catch (_: Exception) {
+    private fun startRinging(soundUri: String?, soundEnabled: Boolean, vibrate: Boolean) {
+        if (soundEnabled) {
+            val uri: Uri = soundUri?.let(Uri::parse)
+                ?: RingtoneManager.getActualDefaultRingtoneUri(this, RingtoneManager.TYPE_ALARM)
+                ?: RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM)
+            mediaPlayer = MediaPlayer().apply {
+                setAudioAttributes(
+                    AudioAttributes.Builder()
+                        .setUsage(AudioAttributes.USAGE_ALARM)
+                        .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
+                        .build()
+                )
+                isLooping = true
+                try {
+                    setDataSource(this@AlarmRingActivity, uri)
+                    prepare()
+                    start()
+                } catch (_: Exception) {
+                    // Fall back to the system default alarm sound if the saved custom sound
+                    // can no longer be resolved (e.g. it was removed from the device).
+                    try {
+                        reset()
+                        setDataSource(this@AlarmRingActivity, RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM))
+                        prepare()
+                        start()
+                    } catch (_: Exception) {
+                    }
+                }
             }
         }
 
-        val pattern = longArrayOf(0, 500, 500)
-        vibrator = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
-            (getSystemService(VIBRATOR_MANAGER_SERVICE) as VibratorManager).defaultVibrator
-        } else {
-            @Suppress("DEPRECATION")
-            getSystemService(VIBRATOR_SERVICE) as Vibrator
-        }
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            vibrator?.vibrate(VibrationEffect.createWaveform(pattern, 0))
-        } else {
-            @Suppress("DEPRECATION")
-            vibrator?.vibrate(pattern, 0)
+        val app = application as AlarmClockApp
+        val globalVibrationEnabled = runBlocking { app.settingsDataStore.settings.first().vibrationEnabled }
+        if (vibrate && globalVibrationEnabled) {
+            val pattern = longArrayOf(0, 500, 500)
+            vibrator = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+                (getSystemService(VIBRATOR_MANAGER_SERVICE) as VibratorManager).defaultVibrator
+            } else {
+                @Suppress("DEPRECATION")
+                getSystemService(VIBRATOR_SERVICE) as Vibrator
+            }
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                vibrator?.vibrate(VibrationEffect.createWaveform(pattern, 0))
+            } else {
+                @Suppress("DEPRECATION")
+                vibrator?.vibrate(pattern, 0)
+            }
         }
     }
 
     private fun snooze() {
+        if (alarmId >= 0) {
+            AlarmScheduler(this).scheduleSnooze(alarmId)
+            Toast.makeText(
+                this,
+                getString(R.string.snoozed_for_minutes, AlarmScheduler.SNOOZE_MINUTES),
+                Toast.LENGTH_SHORT
+            ).show()
+        }
         stopRingingAndFinish()
     }
 

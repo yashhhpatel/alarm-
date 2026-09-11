@@ -129,6 +129,7 @@
     <string name="alarm_ring_default_label">অ্যালার্ম</string>
     <string name="snooze">স্নুজ</string>
     <string name="dismiss">খারিজ করুন</string>
+    <string name="snoozed_for_minutes">%1$d মিনিটের জন্য স্নুজ করা হয়েছে</string>
 
     <string name="notif_tap_to_open">আপনার অ্যালার্ম খুলতে ট্যাপ করুন</string>
     <string name="notif_timer_finished_title">%1$s শেষ হয়েছে</string>
@@ -140,4 +141,6 @@
     <string name="channel_alarm_desc">অ্যালার্ম বাজার বিজ্ঞপ্তি</string>
     <string name="channel_timer_name">টাইমার</string>
     <string name="channel_timer_desc">চলমান টাইমারের কাউন্টডাউন</string>
+    <string name="channel_upcoming_name">আসন্ন অ্যালার্ম</string>
+    <string name="channel_upcoming_desc">আপনার পরবর্তী নির্ধারিত অ্যালার্মের একটি শান্ত অনুস্মারক</string>
 </resources>

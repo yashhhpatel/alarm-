@@ -62,7 +62,7 @@ fun SettingsScreen(
     onPrivacySettings: () -> Unit
 ) {
     val context = LocalContext.current
-    val viewModel = rememberAppViewModel { app -> SettingsViewModel(app.settingsDataStore) }
+    val viewModel = rememberAppViewModel { app -> SettingsViewModel(app.settingsDataStore, com.alarmclock.app.alarm.AlarmScheduler(app)) }
     val settings by viewModel.settings.collectAsState()
     var showRateDialog by remember { mutableStateOf(false) }
 

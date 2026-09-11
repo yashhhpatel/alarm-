@@ -129,6 +129,7 @@
     <string name="alarm_ring_default_label">Будильник</string>
     <string name="snooze">Отложить</string>
     <string name="dismiss">Закрыть</string>
+    <string name="snoozed_for_minutes">Отложено на %1$d минут</string>
 
     <string name="notif_tap_to_open">Нажмите, чтобы открыть будильник</string>
     <string name="notif_timer_finished_title">%1$s завершён</string>
@@ -140,4 +141,6 @@
     <string name="channel_alarm_desc">Уведомления о звонке будильника</string>
     <string name="channel_timer_name">Таймеры</string>
     <string name="channel_timer_desc">Обратный отсчёт активных таймеров</string>
+    <string name="channel_upcoming_name">Предстоящий будильник</string>
+    <string name="channel_upcoming_desc">Тихое напоминание о следующем запланированном будильнике</string>
 </resources>

@@ -129,6 +129,7 @@
     <string name="alarm_ring_default_label">Alarme</string>
     <string name="snooze">Soneca</string>
     <string name="dismiss">Dispensar</string>
+    <string name="snoozed_for_minutes">Adiado por %1$d minutos</string>
 
     <string name="notif_tap_to_open">Toque para abrir seu alarme</string>
     <string name="notif_timer_finished_title">%1$s concluído</string>
@@ -140,4 +141,6 @@
     <string name="channel_alarm_desc">Notificações de toque de alarme</string>
     <string name="channel_timer_name">Temporizadores</string>
     <string name="channel_timer_desc">Contagem regressiva dos temporizadores em execução</string>
+    <string name="channel_upcoming_name">Próximo alarme</string>
+    <string name="channel_upcoming_desc">Um lembrete discreto do seu próximo alarme agendado</string>
 </resources>

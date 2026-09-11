@@ -60,10 +60,20 @@ class AlarmClockApp : Application() {
                 description = getString(R.string.channel_timer_desc)
             }
         )
+        manager.createNotificationChannel(
+            NotificationChannel(
+                CHANNEL_UPCOMING,
+                getString(R.string.channel_upcoming_name),
+                NotificationManager.IMPORTANCE_LOW
+            ).apply {
+                description = getString(R.string.channel_upcoming_desc)
+            }
+        )
     }
 
     companion object {
         const val CHANNEL_ALARM = "alarm_channel"
         const val CHANNEL_TIMER = "timer_channel"
+        const val CHANNEL_UPCOMING = "upcoming_alarm_channel"
     }
 }
