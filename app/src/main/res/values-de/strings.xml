@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">Alarm Clock</string>
+
+    <string name="perm_title">Wir benötigen Ihre Berechtigungen</string>
+    <string name="perm_notification_desc">Wir bitten um Benachrichtigungszugriff, um Ihnen rechtzeitig Updates und Warnungen zu senden.</string>
+    <string name="perm_phone_desc">Dadurch können wir Ihr Gerät zuverlässig aufwecken und Alarme pünktlich auslösen, selbst im Hintergrund.</string>
+    <string name="perm_agree_continue">Zustimmen und fortfahren</string>
+    <string name="perm_terms_footer">Durch Fortfahren stimmen Sie unserer Datenschutzrichtlinie und den Nutzungsbedingungen zu</string>
+    <string name="consent_title">Ihr Wohlbefinden steht an erster Stelle!</string>
+    <string name="consent_subtitle">Ihre Privatsphäre sichern</string>
+    <string name="consent_body">Alle Ihre Alarme, Weltuhren und Timer werden ausschließlich auf diesem Gerät gespeichert. Wir sammeln oder teilen Ihre persönlichen Daten mit niemandem.</string>
+    <string name="consent_accept">AKZEPTIEREN</string>
+    <string name="consent_decline">ABLEHNEN</string>
+
+    <string name="nav_alarm">Alarm</string>
+    <string name="nav_world">Welt</string>
+    <string name="nav_stop">Stopp</string>
+    <string name="nav_timer">Timer</string>
+
+    <string name="search_alarms_cd">Alarme suchen</string>
+    <string name="settings_cd">Einstellungen</string>
+    <string name="add_alarm_cd">Alarm hinzufügen</string>
+    <string name="no_alarms_yet">Noch keine Alarme.\nTippen Sie auf +, um einen hinzuzufügen.</string>
+    <string name="next_alarm_countdown_hm">Noch %1$d Stunden und %2$d Minuten bis zum nächsten Alarm.</string>
+    <string name="next_alarm_countdown_m">Noch %1$d Minuten bis zum nächsten Alarm.</string>
+
+    <string name="every_day">Jeden Tag</string>
+    <string-array name="day_short_names">
+        <item>Mo</item>
+        <item>Di</item>
+        <item>Mi</item>
+        <item>Do</item>
+        <item>Fr</item>
+        <item>Sa</item>
+        <item>So</item>
+    </string-array>
+    <string-array name="day_letters">
+        <item>M</item>
+        <item>D</item>
+        <item>M</item>
+        <item>D</item>
+        <item>F</item>
+        <item>S</item>
+        <item>S</item>
+    </string-array>
+
+    <string name="add_alarm_title">Alarm hinzufügen</string>
+    <string name="edit_alarm_title">Alarm bearbeiten</string>
+    <string name="back_cd">Zurück</string>
+    <string name="pick_date_cd">Datum wählen</string>
+    <string name="title_label">Titel</string>
+    <string name="alarm_sound_label">Alarmton</string>
+    <string name="vibration_label">Vibration</string>
+    <string name="chime_tone">Glockenton</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="save">Speichern</string>
+    <string name="ok">OK</string>
+    <string name="am">am</string>
+    <string name="pm">pm</string>
+    <string name="silent">Lautlos</string>
+    <string name="default_sound_name">Standard</string>
+    <string name="default_alarm_label">Morgenalarm</string>
+
+    <string name="search_alarms_placeholder">Alarme suchen…</string>
+    <string name="no_alarms_result">Keine Alarme</string>
+
+    <string name="add_city_cd">Stadt hinzufügen</string>
+    <string name="local_time">Ortszeit</string>
+    <string name="add_now">Jetzt hinzufügen</string>
+    <string name="add_now_desc">eine weitere Weltuhr mit der Schaltfläche + oben !!</string>
+    <string name="remove_cd">Entfernen</string>
+    <string name="city_country_region">Stadt / Land / Region</string>
+
+    <string name="stopwatch_title">Stoppuhr</string>
+    <string name="lap_cd">Runde</string>
+    <string name="reset_cd">Zurücksetzen</string>
+    <string name="pause_cd">Pause</string>
+    <string name="start_cd">Start</string>
+    <string name="lap_label">Runde %1$d</string>
+    <string name="restart_button">Neustart</string>
+    <string name="stop_button">Stopp</string>
+    <string name="lap_column_header">Runde</string>
+    <string name="lap_times_header">Rundenzeit</string>
+    <string name="overall_time_header">Gesamtzeit</string>
+
+    <string name="add_preset_timer_cd">Voreingestellten Timer hinzufügen</string>
+    <string name="hours_label">Stunden</string>
+    <string name="minutes_label">Minuten</string>
+    <string name="seconds_label">Sekunden</string>
+    <string name="edit_button">Bearbeiten</string>
+    <string name="add_button">Hinzufügen</string>
+    <string name="start_button">Start</string>
+    <string name="add_preset_timer_title">Voreingestellten Timer hinzufügen</string>
+    <string name="edit_preset_timer_title">Voreingestellten Timer bearbeiten</string>
+    <string name="add_title_placeholder">Titel hinzufügen</string>
+    <string name="delete">Löschen</string>
+    <string name="default_timer_title">Timer</string>
+    <string name="cancel_cd">Abbrechen</string>
+    <string name="resume_cd">Fortsetzen</string>
+
+    <string name="app_settings_title">App-Einstellungen</string>
+    <string name="section_general">Allgemein</string>
+    <string name="section_manage_alarm">Alarm verwalten</string>
+    <string name="section_communicate">Kommunizieren</string>
+    <string name="section_others">Sonstiges</string>
+    <string name="language_label">Sprache</string>
+    <string name="upcoming_alarm_notification_label">Benachrichtigung über bevorstehenden Alarm</string>
+    <string name="on_text">an</string>
+    <string name="off_text">aus</string>
+    <string name="app_theme_label">App-Design</string>
+    <string name="auto_mode">Automatischer Modus</string>
+    <string name="light_mode">Heller Modus</string>
+    <string name="dark_mode">Dunkler Modus</string>
+    <string name="privacy_settings_label">Datenschutzeinstellungen</string>
+    <string name="feedback_label">Feedback</string>
+    <string name="privacy_policy_label">Datenschutzrichtlinie</string>
+    <string name="report_bug_label">Fehler melden</string>
+    <string name="share_app_label">App teilen</string>
+    <string name="rate_us_label">Bewerten Sie uns</string>
+    <string name="share_app_message">Schau dir Alarm Clock an: %1$s</string>
+    <string name="bug_report_subject">Fehlerbericht</string>
+    <string name="location_permission_label">Standortberechtigung</string>
+    <string name="location_permission_desc">Erlaube dieser App, den Standort deines Geräts für lokale Funktionen wie Weltuhr-Vorschläge zu verwenden. Diese App teilt deinen Standort nicht mit Dritten.</string>
+    <string name="rate_dialog_title">Gefällt dir Clock App?</string>
+    <string name="rate_dialog_message">Wenn dir der smarte Wecker gefällt, nimm dir bitte einen Moment Zeit, um ihn zu bewerten.</string>
+
+    <string name="change_language_title">Sprache ändern</string>
+
+    <string name="alarm_ring_default_label">Alarm</string>
+    <string name="snooze">Schlummern</string>
+    <string name="dismiss">Verwerfen</string>
+
+    <string name="notif_tap_to_open">Tippen, um Ihren Alarm zu öffnen</string>
+    <string name="notif_timer_finished_title">%1$s beendet</string>
+    <string name="notif_timer_completed_text">Ihr Timer ist abgelaufen</string>
+    <string name="notif_timers_running_one">1 Timer läuft</string>
+    <string name="notif_timers_running_many">%1$d Timer laufen</string>
+    <string name="notif_starting">Wird gestartet…</string>
+    <string name="channel_alarm_name">Alarme</string>
+    <string name="channel_alarm_desc">Benachrichtigungen bei Alarmklingeln</string>
+    <string name="channel_timer_name">Timer</string>
+    <string name="channel_timer_desc">Countdown laufender Timer</string>
+</resources>

@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">Alarm Clock</string>
+
+    <string name="perm_title">আমাদের আপনার অনুমতি প্রয়োজন</string>
+    <string name="perm_notification_desc">সময়মতো আপডেট এবং সতর্কতা পাঠাতে আমরা নোটিফিকেশন অ্যাক্সেসের অনুরোধ করি।</string>
+    <string name="perm_phone_desc">এটি আমাদের ব্যাকগ্রাউন্ডেও আপনার ডিভাইসকে নির্ভরযোগ্যভাবে জাগিয়ে তুলতে এবং সময়মতো অ্যালার্ম বাজাতে সাহায্য করে।</string>
+    <string name="perm_agree_continue">সম্মত এবং চালিয়ে যান</string>
+    <string name="perm_terms_footer">চালিয়ে যাওয়ার মাধ্যমে আপনি আমাদের গোপনীয়তা নীতি এবং শর্তাবলীতে সম্মত হচ্ছেন</string>
+    <string name="consent_title">আপনার স্বাচ্ছন্দ্য আমাদের প্রথম অগ্রাধিকার!</string>
+    <string name="consent_subtitle">আপনার গোপনীয়তা নিশ্চিত করা</string>
+    <string name="consent_body">আপনার সমস্ত অ্যালার্ম, ওয়ার্ল্ড ক্লক এবং টাইমার শুধুমাত্র এই ডিভাইসে সংরক্ষিত থাকে। আমরা আপনার ব্যক্তিগত ডেটা সংগ্রহ বা কারো সাথে শেয়ার করি না।</string>
+    <string name="consent_accept">গ্রহণ করুন</string>
+    <string name="consent_decline">প্রত্যাখ্যান করুন</string>
+
+    <string name="nav_alarm">অ্যালার্ম</string>
+    <string name="nav_world">বিশ্ব</string>
+    <string name="nav_stop">স্টপ</string>
+    <string name="nav_timer">টাইমার</string>
+
+    <string name="search_alarms_cd">অ্যালার্ম খুঁজুন</string>
+    <string name="settings_cd">সেটিংস</string>
+    <string name="add_alarm_cd">অ্যালার্ম যোগ করুন</string>
+    <string name="no_alarms_yet">এখনও কোনো অ্যালার্ম নেই।\nএকটি যোগ করতে + এ ট্যাপ করুন।</string>
+    <string name="next_alarm_countdown_hm">পরবর্তী অ্যালার্মের জন্য %1$d ঘণ্টা %2$d মিনিট বাকি।</string>
+    <string name="next_alarm_countdown_m">পরবর্তী অ্যালার্মের জন্য %1$d মিনিট বাকি।</string>
+
+    <string name="every_day">প্রতিদিন</string>
+    <string-array name="day_short_names">
+        <item>সোম</item>
+        <item>মঙ্গল</item>
+        <item>বুধ</item>
+        <item>বৃহঃ</item>
+        <item>শুক্র</item>
+        <item>শনি</item>
+        <item>রবি</item>
+    </string-array>
+    <string-array name="day_letters">
+        <item>সো</item>
+        <item>ম</item>
+        <item>বু</item>
+        <item>বৃ</item>
+        <item>শু</item>
+        <item>শ</item>
+        <item>র</item>
+    </string-array>
+
+    <string name="add_alarm_title">অ্যালার্ম যোগ করুন</string>
+    <string name="edit_alarm_title">অ্যালার্ম সম্পাদনা করুন</string>
+    <string name="back_cd">ফিরে যান</string>
+    <string name="pick_date_cd">তারিখ বেছে নিন</string>
+    <string name="title_label">শিরোনাম</string>
+    <string name="alarm_sound_label">অ্যালার্ম শব্দ</string>
+    <string name="vibration_label">কম্পন</string>
+    <string name="chime_tone">চাইম টোন</string>
+    <string name="cancel">বাতিল</string>
+    <string name="save">সংরক্ষণ করুন</string>
+    <string name="ok">ঠিক আছে</string>
+    <string name="am">পূর্বাহ্ন</string>
+    <string name="pm">অপরাহ্ন</string>
+    <string name="silent">নীরব</string>
+    <string name="default_sound_name">ডিফল্ট</string>
+    <string name="default_alarm_label">সকালের অ্যালার্ম</string>
+
+    <string name="search_alarms_placeholder">অ্যালার্ম খুঁজুন…</string>
+    <string name="no_alarms_result">কোনো অ্যালার্ম নেই</string>
+
+    <string name="add_city_cd">শহর যোগ করুন</string>
+    <string name="local_time">স্থানীয় সময়</string>
+    <string name="add_now">এখনই যোগ করুন</string>
+    <string name="add_now_desc">উপরের + বোতাম ব্যবহার করে আরেকটি ওয়ার্ল্ড ক্লক !!</string>
+    <string name="remove_cd">সরান</string>
+    <string name="city_country_region">শহর / দেশ / অঞ্চল</string>
+
+    <string name="stopwatch_title">স্টপওয়াচ</string>
+    <string name="lap_cd">ল্যাপ</string>
+    <string name="reset_cd">রিসেট</string>
+    <string name="pause_cd">বিরতি</string>
+    <string name="start_cd">শুরু করুন</string>
+    <string name="lap_label">ল্যাপ %1$d</string>
+    <string name="restart_button">পুনরায় শুরু করুন</string>
+    <string name="stop_button">থামুন</string>
+    <string name="lap_column_header">ল্যাপ</string>
+    <string name="lap_times_header">ল্যাপ সময়</string>
+    <string name="overall_time_header">সর্বমোট সময়</string>
+
+    <string name="add_preset_timer_cd">প্রিসেট টাইমার যোগ করুন</string>
+    <string name="hours_label">ঘণ্টা</string>
+    <string name="minutes_label">মিনিট</string>
+    <string name="seconds_label">সেকেন্ড</string>
+    <string name="edit_button">সম্পাদনা</string>
+    <string name="add_button">যোগ করুন</string>
+    <string name="start_button">শুরু করুন</string>
+    <string name="add_preset_timer_title">প্রিসেট টাইমার যোগ করুন</string>
+    <string name="edit_preset_timer_title">প্রিসেট টাইমার সম্পাদনা করুন</string>
+    <string name="add_title_placeholder">শিরোনাম যোগ করুন</string>
+    <string name="delete">মুছুন</string>
+    <string name="default_timer_title">টাইমার</string>
+    <string name="cancel_cd">বাতিল</string>
+    <string name="resume_cd">আবার শুরু করুন</string>
+
+    <string name="app_settings_title">অ্যাপ সেটিংস</string>
+    <string name="section_general">সাধারণ</string>
+    <string name="section_manage_alarm">অ্যালার্ম পরিচালনা</string>
+    <string name="section_communicate">যোগাযোগ</string>
+    <string name="section_others">অন্যান্য</string>
+    <string name="language_label">ভাষা</string>
+    <string name="upcoming_alarm_notification_label">আসন্ন অ্যালার্ম বিজ্ঞপ্তি</string>
+    <string name="on_text">চালু</string>
+    <string name="off_text">বন্ধ</string>
+    <string name="app_theme_label">অ্যাপ থিম</string>
+    <string name="auto_mode">স্বয়ংক্রিয় মোড</string>
+    <string name="light_mode">লাইট মোড</string>
+    <string name="dark_mode">ডার্ক মোড</string>
+    <string name="privacy_settings_label">গোপনীয়তা সেটিংস</string>
+    <string name="feedback_label">মতামত</string>
+    <string name="privacy_policy_label">গোপনীয়তা নীতি</string>
+    <string name="report_bug_label">বাগ রিপোর্ট করুন</string>
+    <string name="share_app_label">অ্যাপ শেয়ার করুন</string>
+    <string name="rate_us_label">আমাদের রেট করুন</string>
+    <string name="share_app_message">Alarm Clock দেখুন: %1$s</string>
+    <string name="bug_report_subject">বাগ রিপোর্ট</string>
+    <string name="location_permission_label">লোকেশন পারমিশন</string>
+    <string name="location_permission_desc">ওয়ার্ল্ড ক্লক সাজেশনের মতো স্থানীয় ফিচারের জন্য অ্যাপটিকে আপনার ডিভাইসের লোকেশন ব্যবহার করার অনুমতি দিন। এই অ্যাপ তৃতীয় পক্ষের সাথে আপনার লোকেশন শেয়ার করে না।</string>
+    <string name="rate_dialog_title">Clock App পছন্দ হয়েছে?</string>
+    <string name="rate_dialog_message">আপনি যদি স্মার্ট অ্যালার্ম ক্লক ব্যবহার করে আনন্দ পান, তাহলে এটি রেট করতে একটু সময় নিন।</string>
+
+    <string name="change_language_title">ভাষা পরিবর্তন করুন</string>
+
+    <string name="alarm_ring_default_label">অ্যালার্ম</string>
+    <string name="snooze">স্নুজ</string>
+    <string name="dismiss">খারিজ করুন</string>
+
+    <string name="notif_tap_to_open">আপনার অ্যালার্ম খুলতে ট্যাপ করুন</string>
+    <string name="notif_timer_finished_title">%1$s শেষ হয়েছে</string>
+    <string name="notif_timer_completed_text">আপনার টাইমার সম্পূর্ণ হয়েছে</string>
+    <string name="notif_timers_running_one">১টি টাইমার চলছে</string>
+    <string name="notif_timers_running_many">%1$d টি টাইমার চলছে</string>
+    <string name="notif_starting">শুরু হচ্ছে…</string>
+    <string name="channel_alarm_name">অ্যালার্ম</string>
+    <string name="channel_alarm_desc">অ্যালার্ম বাজার বিজ্ঞপ্তি</string>
+    <string name="channel_timer_name">টাইমার</string>
+    <string name="channel_timer_desc">চলমান টাইমারের কাউন্টডাউন</string>
+</resources>

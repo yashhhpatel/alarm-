@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">Alarm Clock</string>
+
+    <string name="perm_title">我们需要您的权限</string>
+    <string name="perm_notification_desc">我们请求通知权限，以便及时向您发送更新和提醒。</string>
+    <string name="perm_phone_desc">这可以让我们即使在后台也能可靠地唤醒您的设备并按时响铃。</string>
+    <string name="perm_agree_continue">同意并继续</string>
+    <string name="perm_terms_footer">继续即表示您同意我们的隐私政策和条款</string>
+    <string name="consent_title">您的舒适是我们的首要考虑！</string>
+    <string name="consent_subtitle">保护您的隐私</string>
+    <string name="consent_body">您的所有闹钟、世界时钟和计时器仅存储在此设备上。我们不会收集或与任何人共享您的个人数据。</string>
+    <string name="consent_accept">接受</string>
+    <string name="consent_decline">拒绝</string>
+
+    <string name="nav_alarm">闹钟</string>
+    <string name="nav_world">世界时钟</string>
+    <string name="nav_stop">秒表</string>
+    <string name="nav_timer">计时器</string>
+
+    <string name="search_alarms_cd">搜索闹钟</string>
+    <string name="settings_cd">设置</string>
+    <string name="add_alarm_cd">添加闹钟</string>
+    <string name="no_alarms_yet">还没有闹钟。\n点击 + 添加一个。</string>
+    <string name="next_alarm_countdown_hm">距离下一个闹钟还有 %1$d 小时 %2$d 分钟。</string>
+    <string name="next_alarm_countdown_m">距离下一个闹钟还有 %1$d 分钟。</string>
+
+    <string name="every_day">每天</string>
+    <string-array name="day_short_names">
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+        <item>周日</item>
+    </string-array>
+    <string-array name="day_letters">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>日</item>
+    </string-array>
+
+    <string name="add_alarm_title">添加闹钟</string>
+    <string name="edit_alarm_title">编辑闹钟</string>
+    <string name="back_cd">返回</string>
+    <string name="pick_date_cd">选择日期</string>
+    <string name="title_label">标题</string>
+    <string name="alarm_sound_label">闹钟铃声</string>
+    <string name="vibration_label">震动</string>
+    <string name="chime_tone">钟声</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="ok">确定</string>
+    <string name="am">上午</string>
+    <string name="pm">下午</string>
+    <string name="silent">静音</string>
+    <string name="default_sound_name">默认</string>
+    <string name="default_alarm_label">晨间闹钟</string>
+
+    <string name="search_alarms_placeholder">搜索闹钟…</string>
+    <string name="no_alarms_result">没有闹钟</string>
+
+    <string name="add_city_cd">添加城市</string>
+    <string name="local_time">本地时间</string>
+    <string name="add_now">立即添加</string>
+    <string name="add_now_desc">使用上方的 + 按钮添加另一个世界时钟！</string>
+    <string name="remove_cd">移除</string>
+    <string name="city_country_region">城市/国家/地区</string>
+
+    <string name="stopwatch_title">秒表</string>
+    <string name="lap_cd">计次</string>
+    <string name="reset_cd">重置</string>
+    <string name="pause_cd">暂停</string>
+    <string name="start_cd">开始</string>
+    <string name="lap_label">第 %1$d 圈</string>
+    <string name="restart_button">重新开始</string>
+    <string name="stop_button">停止</string>
+    <string name="lap_column_header">圈数</string>
+    <string name="lap_times_header">圈速</string>
+    <string name="overall_time_header">总时间</string>
+
+    <string name="add_preset_timer_cd">添加预设计时器</string>
+    <string name="hours_label">小时</string>
+    <string name="minutes_label">分钟</string>
+    <string name="seconds_label">秒</string>
+    <string name="edit_button">编辑</string>
+    <string name="add_button">添加</string>
+    <string name="start_button">开始</string>
+    <string name="add_preset_timer_title">添加预设计时器</string>
+    <string name="edit_preset_timer_title">编辑预设计时器</string>
+    <string name="add_title_placeholder">添加标题</string>
+    <string name="delete">删除</string>
+    <string name="default_timer_title">计时器</string>
+    <string name="cancel_cd">取消</string>
+    <string name="resume_cd">继续</string>
+
+    <string name="app_settings_title">应用设置</string>
+    <string name="section_general">常规</string>
+    <string name="section_manage_alarm">管理闹钟</string>
+    <string name="section_communicate">联系我们</string>
+    <string name="section_others">其他</string>
+    <string name="language_label">语言</string>
+    <string name="upcoming_alarm_notification_label">即将响铃通知</string>
+    <string name="on_text">开</string>
+    <string name="off_text">关</string>
+    <string name="app_theme_label">应用主题</string>
+    <string name="auto_mode">自动模式</string>
+    <string name="light_mode">浅色模式</string>
+    <string name="dark_mode">深色模式</string>
+    <string name="privacy_settings_label">隐私设置</string>
+    <string name="feedback_label">反馈</string>
+    <string name="privacy_policy_label">隐私政策</string>
+    <string name="report_bug_label">报告问题</string>
+    <string name="share_app_label">分享应用</string>
+    <string name="rate_us_label">给我们评分</string>
+    <string name="share_app_message">看看这个闹钟应用：%1$s</string>
+    <string name="bug_report_subject">问题报告</string>
+    <string name="location_permission_label">位置权限</string>
+    <string name="location_permission_desc">允许此应用使用您设备的位置信息以支持世界时钟建议等本地功能。此应用不会将您的位置信息与第三方共享。</string>
+    <string name="rate_dialog_title">喜欢 Clock App 吗?</string>
+    <string name="rate_dialog_message">如果你喜欢使用这款智能闹钟,请花一点时间为它评分。</string>
+
+    <string name="change_language_title">更改语言</string>
+
+    <string name="alarm_ring_default_label">闹钟</string>
+    <string name="snooze">稍后提醒</string>
+    <string name="dismiss">关闭</string>
+
+    <string name="notif_tap_to_open">点击打开您的闹钟</string>
+    <string name="notif_timer_finished_title">%1$s 已完成</string>
+    <string name="notif_timer_completed_text">您的计时器已完成</string>
+    <string name="notif_timers_running_one">1 个计时器正在运行</string>
+    <string name="notif_timers_running_many">%1$d 个计时器正在运行</string>
+    <string name="notif_starting">正在启动…</string>
+    <string name="channel_alarm_name">闹钟</string>
+    <string name="channel_alarm_desc">闹钟响铃通知</string>
+    <string name="channel_timer_name">计时器</string>
+    <string name="channel_timer_desc">正在运行的计时器倒计时</string>
+</resources>

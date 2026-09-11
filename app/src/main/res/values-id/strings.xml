@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">Alarm Clock</string>
+
+    <string name="perm_title">Kami memerlukan izin Anda</string>
+    <string name="perm_notification_desc">Kami meminta akses notifikasi untuk mengirimkan pembaruan dan peringatan tepat waktu.</string>
+    <string name="perm_phone_desc">Ini memungkinkan kami membangunkan perangkat Anda secara andal dan membunyikan alarm tepat waktu, bahkan di latar belakang.</string>
+    <string name="perm_agree_continue">Setuju &amp; Lanjutkan</string>
+    <string name="perm_terms_footer">Dengan melanjutkan, Anda menyetujui Kebijakan Privasi dan Syarat &amp; Ketentuan kami</string>
+    <string name="consent_title">Kenyamanan Anda adalah yang utama!</string>
+    <string name="consent_subtitle">Memastikan privasi Anda</string>
+    <string name="consent_body">Semua alarm, jam dunia, dan pengatur waktu Anda hanya disimpan di perangkat ini. Kami tidak mengumpulkan atau membagikan data pribadi Anda kepada siapa pun.</string>
+    <string name="consent_accept">TERIMA</string>
+    <string name="consent_decline">TOLAK</string>
+
+    <string name="nav_alarm">Alarm</string>
+    <string name="nav_world">Dunia</string>
+    <string name="nav_stop">Stopwatch</string>
+    <string name="nav_timer">Timer</string>
+
+    <string name="search_alarms_cd">Cari alarm</string>
+    <string name="settings_cd">Pengaturan</string>
+    <string name="add_alarm_cd">Tambah alarm</string>
+    <string name="no_alarms_yet">Belum ada alarm.\nKetuk + untuk menambahkan.</string>
+    <string name="next_alarm_countdown_hm">%1$d jam %2$d menit lagi menuju alarm berikutnya.</string>
+    <string name="next_alarm_countdown_m">%1$d menit lagi menuju alarm berikutnya.</string>
+
+    <string name="every_day">Setiap hari</string>
+    <string-array name="day_short_names">
+        <item>Sen</item>
+        <item>Sel</item>
+        <item>Rab</item>
+        <item>Kam</item>
+        <item>Jum</item>
+        <item>Sab</item>
+        <item>Min</item>
+    </string-array>
+    <string-array name="day_letters">
+        <item>S</item>
+        <item>S</item>
+        <item>R</item>
+        <item>K</item>
+        <item>J</item>
+        <item>S</item>
+        <item>M</item>
+    </string-array>
+
+    <string name="add_alarm_title">Tambah Alarm</string>
+    <string name="edit_alarm_title">Edit Alarm</string>
+    <string name="back_cd">Kembali</string>
+    <string name="pick_date_cd">Pilih tanggal</string>
+    <string name="title_label">Judul</string>
+    <string name="alarm_sound_label">Suara Alarm</string>
+    <string name="vibration_label">Getaran</string>
+    <string name="chime_tone">Nada lonceng</string>
+    <string name="cancel">Batal</string>
+    <string name="save">Simpan</string>
+    <string name="ok">OK</string>
+    <string name="am">am</string>
+    <string name="pm">pm</string>
+    <string name="silent">Senyap</string>
+    <string name="default_sound_name">Default</string>
+    <string name="default_alarm_label">Alarm Pagi</string>
+
+    <string name="search_alarms_placeholder">Cari alarm…</string>
+    <string name="no_alarms_result">Tidak Ada Alarm</string>
+
+    <string name="add_city_cd">Tambah kota</string>
+    <string name="local_time">Waktu setempat</string>
+    <string name="add_now">Tambah sekarang</string>
+    <string name="add_now_desc">jam dunia lainnya menggunakan tombol + di atas !!</string>
+    <string name="remove_cd">Hapus</string>
+    <string name="city_country_region">Kota / Negara / Wilayah</string>
+
+    <string name="stopwatch_title">Stopwatch</string>
+    <string name="lap_cd">Putaran</string>
+    <string name="reset_cd">Atur ulang</string>
+    <string name="pause_cd">Jeda</string>
+    <string name="start_cd">Mulai</string>
+    <string name="lap_label">Putaran %1$d</string>
+    <string name="restart_button">Mulai ulang</string>
+    <string name="stop_button">Berhenti</string>
+    <string name="lap_column_header">Lap</string>
+    <string name="lap_times_header">Waktu lap</string>
+    <string name="overall_time_header">Waktu total</string>
+
+    <string name="add_preset_timer_cd">Tambah timer preset</string>
+    <string name="hours_label">Jam</string>
+    <string name="minutes_label">Menit</string>
+    <string name="seconds_label">Detik</string>
+    <string name="edit_button">Edit</string>
+    <string name="add_button">Tambah</string>
+    <string name="start_button">Mulai</string>
+    <string name="add_preset_timer_title">Tambah timer preset</string>
+    <string name="edit_preset_timer_title">Edit Timer Preset</string>
+    <string name="add_title_placeholder">Tambah judul</string>
+    <string name="delete">Hapus</string>
+    <string name="default_timer_title">Timer</string>
+    <string name="cancel_cd">Batal</string>
+    <string name="resume_cd">Lanjutkan</string>
+
+    <string name="app_settings_title">Pengaturan aplikasi</string>
+    <string name="section_general">Umum</string>
+    <string name="section_manage_alarm">Kelola Alarm</string>
+    <string name="section_communicate">Hubungi</string>
+    <string name="section_others">Lainnya</string>
+    <string name="language_label">Bahasa</string>
+    <string name="upcoming_alarm_notification_label">Notifikasi alarm mendatang</string>
+    <string name="on_text">aktif</string>
+    <string name="off_text">nonaktif</string>
+    <string name="app_theme_label">Tema Aplikasi</string>
+    <string name="auto_mode">Mode Otomatis</string>
+    <string name="light_mode">Mode Terang</string>
+    <string name="dark_mode">Mode Gelap</string>
+    <string name="privacy_settings_label">Pengaturan Privasi</string>
+    <string name="feedback_label">Masukan</string>
+    <string name="privacy_policy_label">Kebijakan Privasi</string>
+    <string name="report_bug_label">Laporkan Bug</string>
+    <string name="share_app_label">Bagikan Aplikasi</string>
+    <string name="rate_us_label">Beri Nilai</string>
+    <string name="share_app_message">Coba Alarm Clock: %1$s</string>
+    <string name="bug_report_subject">Laporan bug</string>
+    <string name="location_permission_label">Izin Lokasi</string>
+    <string name="location_permission_desc">Izinkan aplikasi ini menggunakan lokasi perangkat Anda untuk fitur lokal seperti saran Jam Dunia. Aplikasi ini tidak membagikan lokasi Anda dengan pihak ketiga.</string>
+    <string name="rate_dialog_title">Suka Clock App?</string>
+    <string name="rate_dialog_message">Jika Anda menikmati menggunakan alarm pintar ini, luangkan waktu sejenak untuk memberi rating.</string>
+
+    <string name="change_language_title">Ubah Bahasa</string>
+
+    <string name="alarm_ring_default_label">Alarm</string>
+    <string name="snooze">Tunda</string>
+    <string name="dismiss">Tutup</string>
+
+    <string name="notif_tap_to_open">Ketuk untuk membuka alarm Anda</string>
+    <string name="notif_timer_finished_title">%1$s selesai</string>
+    <string name="notif_timer_completed_text">Timer Anda telah selesai</string>
+    <string name="notif_timers_running_one">1 timer sedang berjalan</string>
+    <string name="notif_timers_running_many">%1$d timer sedang berjalan</string>
+    <string name="notif_starting">Memulai…</string>
+    <string name="channel_alarm_name">Alarm</string>
+    <string name="channel_alarm_desc">Notifikasi bunyi alarm</string>
+    <string name="channel_timer_name">Timer</string>
+    <string name="channel_timer_desc">Hitung mundur timer yang sedang berjalan</string>
+</resources>

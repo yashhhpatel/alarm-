@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">Alarm Clock</string>
+
+    <!-- Onboarding -->
+    <string name="perm_title">We need your permissions</string>
+    <string name="perm_notification_desc">We request notification access to send timely updates and alerts.</string>
+    <string name="perm_phone_desc">This lets us reliably wake your device and ring alarms on time, even in the background.</string>
+    <string name="perm_agree_continue">Agree &amp; Continue</string>
+    <string name="perm_terms_footer">By continuing you agree to our Privacy Policy and Terms &amp; Conditions</string>
+    <string name="consent_title">Your comfort comes first!</string>
+    <string name="consent_subtitle">Ensuring your privacy</string>
+    <string name="consent_body">All your alarms, world clocks and timers are stored only on this device. We don\'t collect or share your personal data with anyone.</string>
+    <string name="consent_accept">ACCEPT</string>
+    <string name="consent_decline">DECLINE</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_alarm">Alarm</string>
+    <string name="nav_world">World</string>
+    <string name="nav_stop">Stop</string>
+    <string name="nav_timer">Timer</string>
+
+    <!-- Alarm list -->
+    <string name="search_alarms_cd">Search alarms</string>
+    <string name="settings_cd">Settings</string>
+    <string name="add_alarm_cd">Add alarm</string>
+    <string name="no_alarms_yet">No alarms yet.\nTap + to add one.</string>
+    <string name="next_alarm_countdown_hm">%1$d hours and %2$d minutes remaining until the next alarm.</string>
+    <string name="next_alarm_countdown_m">%1$d minutes remaining until the next alarm.</string>
+
+    <!-- Repeat days -->
+    <string name="every_day">Every day</string>
+    <string-array name="day_short_names">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+    <string-array name="day_letters">
+        <item>M</item>
+        <item>T</item>
+        <item>W</item>
+        <item>T</item>
+        <item>F</item>
+        <item>S</item>
+        <item>S</item>
+    </string-array>
+
+    <!-- Add/Edit alarm -->
+    <string name="add_alarm_title">Add Alarm</string>
+    <string name="edit_alarm_title">Edit Alarm</string>
+    <string name="back_cd">Back</string>
+    <string name="pick_date_cd">Pick date</string>
+    <string name="title_label">Title</string>
+    <string name="alarm_sound_label">Alarm Sound</string>
+    <string name="vibration_label">Vibration</string>
+    <string name="chime_tone">Chime tone</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="ok">OK</string>
+    <string name="am">am</string>
+    <string name="pm">pm</string>
+    <string name="silent">Silent</string>
+    <string name="default_sound_name">Default</string>
+    <string name="default_alarm_label">Morning Alarm</string>
+
+    <!-- Search -->
+    <string name="search_alarms_placeholder">Search alarms…</string>
+    <string name="no_alarms_result">No Alarms</string>
+
+    <!-- World clock -->
+    <string name="add_city_cd">Add city</string>
+    <string name="local_time">Local time</string>
+    <string name="add_now">Add now</string>
+    <string name="add_now_desc">another world clock using the + button above !!</string>
+    <string name="remove_cd">Remove</string>
+    <string name="city_country_region">City / Country / Region</string>
+
+    <!-- Stopwatch -->
+    <string name="stopwatch_title">Stopwatch</string>
+    <string name="lap_cd">Lap</string>
+    <string name="reset_cd">Reset</string>
+    <string name="pause_cd">Pause</string>
+    <string name="start_cd">Start</string>
+    <string name="lap_label">Lap %1$d</string>
+    <string name="restart_button">Restart</string>
+    <string name="stop_button">Stop</string>
+    <string name="lap_column_header">Lap</string>
+    <string name="lap_times_header">Lap times</string>
+    <string name="overall_time_header">Overall time</string>
+
+    <!-- Timer -->
+    <string name="add_preset_timer_cd">Add preset timer</string>
+    <string name="hours_label">Hours</string>
+    <string name="minutes_label">Minutes</string>
+    <string name="seconds_label">Seconds</string>
+    <string name="edit_button">Edit</string>
+    <string name="add_button">Add</string>
+    <string name="start_button">Start</string>
+    <string name="add_preset_timer_title">Add preset timer</string>
+    <string name="edit_preset_timer_title">Edit Preset Timer</string>
+    <string name="add_title_placeholder">Add title</string>
+    <string name="delete">Delete</string>
+    <string name="default_timer_title">Timer</string>
+    <string name="cancel_cd">Cancel</string>
+    <string name="resume_cd">Resume</string>
+
+    <!-- Settings -->
+    <string name="app_settings_title">App settings</string>
+    <string name="section_general">General</string>
+    <string name="section_manage_alarm">Manage Alarm</string>
+    <string name="section_communicate">Communicate</string>
+    <string name="section_others">Others</string>
+    <string name="language_label">Language</string>
+    <string name="upcoming_alarm_notification_label">Upcoming alarm notification</string>
+    <string name="on_text">on</string>
+    <string name="off_text">off</string>
+    <string name="app_theme_label">App Theme</string>
+    <string name="auto_mode">Auto Mode</string>
+    <string name="light_mode">Light Mode</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="privacy_settings_label">Privacy Settings</string>
+    <string name="feedback_label">Feedback</string>
+    <string name="privacy_policy_label">Privacy Policy</string>
+    <string name="report_bug_label">Report Bug</string>
+    <string name="share_app_label">Share App</string>
+    <string name="rate_us_label">Rate Us</string>
+    <string name="share_app_message">Check out Alarm Clock: %1$s</string>
+    <string name="bug_report_subject">Bug report</string>
+    <string name="location_permission_label">Location Permission</string>
+    <string name="location_permission_desc">Allow this app to use your device\'s location for local features like World Clock suggestions. This app does not share your location with third parties.</string>
+    <string name="rate_dialog_title">Love Clock App?</string>
+    <string name="rate_dialog_message">If you enjoy using smart alarm clock please take a moment to rate it.</string>
+
+    <!-- Change language -->
+    <string name="change_language_title">Change Language</string>
+
+    <!-- Privacy policy content -->
+
+    <!-- Alarm ring -->
+    <string name="alarm_ring_default_label">Alarm</string>
+    <string name="snooze">Snooze</string>
+    <string name="dismiss">Dismiss</string>
+
+    <!-- Notifications -->
+    <string name="notif_tap_to_open">Tap to open your alarm</string>
+    <string name="notif_timer_finished_title">%1$s finished</string>
+    <string name="notif_timer_completed_text">Your timer has completed</string>
+    <string name="notif_timers_running_one">1 timer is running</string>
+    <string name="notif_timers_running_many">%1$d timers are running</string>
+    <string name="notif_starting">Starting…</string>
+    <string name="channel_alarm_name">Alarms</string>
+    <string name="channel_alarm_desc">Alarm ringing notifications</string>
+    <string name="channel_timer_name">Timers</string>
+    <string name="channel_timer_desc">Running timer countdowns</string>
+</resources>

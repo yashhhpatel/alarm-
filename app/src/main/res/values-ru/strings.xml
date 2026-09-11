@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">Alarm Clock</string>
+
+    <string name="perm_title">Нам нужны ваши разрешения</string>
+    <string name="perm_notification_desc">Мы запрашиваем доступ к уведомлениям, чтобы вовремя присылать вам обновления и оповещения.</string>
+    <string name="perm_phone_desc">Это позволяет надёжно будить ваше устройство и вовремя включать будильник, даже в фоновом режиме.</string>
+    <string name="perm_agree_continue">Согласиться и продолжить</string>
+    <string name="perm_terms_footer">Продолжая, вы соглашаетесь с нашей Политикой конфиденциальности и Условиями использования</string>
+    <string name="consent_title">Ваш комфорт превыше всего!</string>
+    <string name="consent_subtitle">Обеспечение вашей конфиденциальности</string>
+    <string name="consent_body">Все ваши будильники, мировые часы и таймеры хранятся только на этом устройстве. Мы не собираем и не передаём ваши личные данные никому.</string>
+    <string name="consent_accept">ПРИНЯТЬ</string>
+    <string name="consent_decline">ОТКЛОНИТЬ</string>
+
+    <string name="nav_alarm">Будильник</string>
+    <string name="nav_world">Мир</string>
+    <string name="nav_stop">Секундомер</string>
+    <string name="nav_timer">Таймер</string>
+
+    <string name="search_alarms_cd">Поиск будильников</string>
+    <string name="settings_cd">Настройки</string>
+    <string name="add_alarm_cd">Добавить будильник</string>
+    <string name="no_alarms_yet">Будильников пока нет.\nНажмите +, чтобы добавить.</string>
+    <string name="next_alarm_countdown_hm">До следующего будильника осталось %1$d ч %2$d мин.</string>
+    <string name="next_alarm_countdown_m">До следующего будильника осталось %1$d мин.</string>
+
+    <string name="every_day">Каждый день</string>
+    <string-array name="day_short_names">
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+        <item>Вс</item>
+    </string-array>
+    <string-array name="day_letters">
+        <item>П</item>
+        <item>В</item>
+        <item>С</item>
+        <item>Ч</item>
+        <item>П</item>
+        <item>С</item>
+        <item>В</item>
+    </string-array>
+
+    <string name="add_alarm_title">Добавить будильник</string>
+    <string name="edit_alarm_title">Изменить будильник</string>
+    <string name="back_cd">Назад</string>
+    <string name="pick_date_cd">Выбрать дату</string>
+    <string name="title_label">Название</string>
+    <string name="alarm_sound_label">Звук будильника</string>
+    <string name="vibration_label">Вибрация</string>
+    <string name="chime_tone">Мелодия колокольчика</string>
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+    <string name="ok">ОК</string>
+    <string name="am">am</string>
+    <string name="pm">pm</string>
+    <string name="silent">Без звука</string>
+    <string name="default_sound_name">По умолчанию</string>
+    <string name="default_alarm_label">Утренний будильник</string>
+
+    <string name="search_alarms_placeholder">Поиск будильников…</string>
+    <string name="no_alarms_result">Нет будильников</string>
+
+    <string name="add_city_cd">Добавить город</string>
+    <string name="local_time">Местное время</string>
+    <string name="add_now">Добавить сейчас</string>
+    <string name="add_now_desc">ещё одни мировые часы с помощью кнопки + выше !!</string>
+    <string name="remove_cd">Удалить</string>
+    <string name="city_country_region">Город / Страна / Регион</string>
+
+    <string name="stopwatch_title">Секундомер</string>
+    <string name="lap_cd">Круг</string>
+    <string name="reset_cd">Сбросить</string>
+    <string name="pause_cd">Пауза</string>
+    <string name="start_cd">Старт</string>
+    <string name="lap_label">Круг %1$d</string>
+    <string name="restart_button">Перезапуск</string>
+    <string name="stop_button">Стоп</string>
+    <string name="lap_column_header">Круг</string>
+    <string name="lap_times_header">Время круга</string>
+    <string name="overall_time_header">Общее время</string>
+
+    <string name="add_preset_timer_cd">Добавить готовый таймер</string>
+    <string name="hours_label">Часы</string>
+    <string name="minutes_label">Минуты</string>
+    <string name="seconds_label">Секунды</string>
+    <string name="edit_button">Изменить</string>
+    <string name="add_button">Добавить</string>
+    <string name="start_button">Старт</string>
+    <string name="add_preset_timer_title">Добавить готовый таймер</string>
+    <string name="edit_preset_timer_title">Изменить готовый таймер</string>
+    <string name="add_title_placeholder">Добавить название</string>
+    <string name="delete">Удалить</string>
+    <string name="default_timer_title">Таймер</string>
+    <string name="cancel_cd">Отмена</string>
+    <string name="resume_cd">Продолжить</string>
+
+    <string name="app_settings_title">Настройки приложения</string>
+    <string name="section_general">Общие</string>
+    <string name="section_manage_alarm">Управление будильником</string>
+    <string name="section_communicate">Связь</string>
+    <string name="section_others">Другое</string>
+    <string name="language_label">Язык</string>
+    <string name="upcoming_alarm_notification_label">Уведомление о ближайшем будильнике</string>
+    <string name="on_text">вкл.</string>
+    <string name="off_text">выкл.</string>
+    <string name="app_theme_label">Тема приложения</string>
+    <string name="auto_mode">Авторежим</string>
+    <string name="light_mode">Светлый режим</string>
+    <string name="dark_mode">Тёмный режим</string>
+    <string name="privacy_settings_label">Настройки конфиденциальности</string>
+    <string name="feedback_label">Отзыв</string>
+    <string name="privacy_policy_label">Политика конфиденциальности</string>
+    <string name="report_bug_label">Сообщить об ошибке</string>
+    <string name="share_app_label">Поделиться приложением</string>
+    <string name="rate_us_label">Оцените нас</string>
+    <string name="share_app_message">Посмотрите Alarm Clock: %1$s</string>
+    <string name="bug_report_subject">Отчёт об ошибке</string>
+    <string name="location_permission_label">Разрешение на геолокацию</string>
+    <string name="location_permission_desc">Разрешите приложению использовать геолокацию устройства для локальных функций, таких как подсказки мирового времени. Это приложение не передаёт вашу геолокацию третьим лицам.</string>
+    <string name="rate_dialog_title">Нравится Clock App?</string>
+    <string name="rate_dialog_message">Если вам нравится этот умный будильник, уделите минутку, чтобы оценить его.</string>
+
+    <string name="change_language_title">Изменить язык</string>
+
+    <string name="alarm_ring_default_label">Будильник</string>
+    <string name="snooze">Отложить</string>
+    <string name="dismiss">Закрыть</string>
+
+    <string name="notif_tap_to_open">Нажмите, чтобы открыть будильник</string>
+    <string name="notif_timer_finished_title">%1$s завершён</string>
+    <string name="notif_timer_completed_text">Ваш таймер завершён</string>
+    <string name="notif_timers_running_one">Работает 1 таймер</string>
+    <string name="notif_timers_running_many">Работает таймеров: %1$d</string>
+    <string name="notif_starting">Запуск…</string>
+    <string name="channel_alarm_name">Будильники</string>
+    <string name="channel_alarm_desc">Уведомления о звонке будильника</string>
+    <string name="channel_timer_name">Таймеры</string>
+    <string name="channel_timer_desc">Обратный отсчёт активных таймеров</string>
+</resources>

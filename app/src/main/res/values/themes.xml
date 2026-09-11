@@ -1,0 +1,13 @@
+<resources>
+    <style name="Theme.AlarmClock" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/light_background</item>
+    </style>
+
+    <style name="Theme.AlarmClock.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/light_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.AlarmClock</item>
+    </style>
+</resources>

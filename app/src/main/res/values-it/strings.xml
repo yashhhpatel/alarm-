@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">Alarm Clock</string>
+
+    <string name="perm_title">Abbiamo bisogno delle tue autorizzazioni</string>
+    <string name="perm_notification_desc">Richiediamo l\'accesso alle notifiche per inviarti aggiornamenti e avvisi tempestivi.</string>
+    <string name="perm_phone_desc">Questo ci permette di riattivare il tuo dispositivo in modo affidabile e far suonare le sveglie in orario, anche in background.</string>
+    <string name="perm_agree_continue">Accetta e continua</string>
+    <string name="perm_terms_footer">Continuando, accetti la nostra Informativa sulla privacy e i Termini e condizioni</string>
+    <string name="consent_title">Il tuo comfort viene prima di tutto!</string>
+    <string name="consent_subtitle">Garantire la tua privacy</string>
+    <string name="consent_body">Tutte le tue sveglie, orologi mondiali e timer sono memorizzati solo su questo dispositivo. Non raccogliamo né condividiamo i tuoi dati personali con nessuno.</string>
+    <string name="consent_accept">ACCETTA</string>
+    <string name="consent_decline">RIFIUTA</string>
+
+    <string name="nav_alarm">Sveglia</string>
+    <string name="nav_world">Mondo</string>
+    <string name="nav_stop">Stop</string>
+    <string name="nav_timer">Timer</string>
+
+    <string name="search_alarms_cd">Cerca sveglie</string>
+    <string name="settings_cd">Impostazioni</string>
+    <string name="add_alarm_cd">Aggiungi sveglia</string>
+    <string name="no_alarms_yet">Nessuna sveglia ancora.\nTocca + per aggiungerne una.</string>
+    <string name="next_alarm_countdown_hm">Mancano %1$d ore e %2$d minuti alla prossima sveglia.</string>
+    <string name="next_alarm_countdown_m">Mancano %1$d minuti alla prossima sveglia.</string>
+
+    <string name="every_day">Ogni giorno</string>
+    <string-array name="day_short_names">
+        <item>Lun</item>
+        <item>Mar</item>
+        <item>Mer</item>
+        <item>Gio</item>
+        <item>Ven</item>
+        <item>Sab</item>
+        <item>Dom</item>
+    </string-array>
+    <string-array name="day_letters">
+        <item>L</item>
+        <item>M</item>
+        <item>M</item>
+        <item>G</item>
+        <item>V</item>
+        <item>S</item>
+        <item>D</item>
+    </string-array>
+
+    <string name="add_alarm_title">Aggiungi sveglia</string>
+    <string name="edit_alarm_title">Modifica sveglia</string>
+    <string name="back_cd">Indietro</string>
+    <string name="pick_date_cd">Scegli data</string>
+    <string name="title_label">Titolo</string>
+    <string name="alarm_sound_label">Suoneria sveglia</string>
+    <string name="vibration_label">Vibrazione</string>
+    <string name="chime_tone">Tono di campana</string>
+    <string name="cancel">Annulla</string>
+    <string name="save">Salva</string>
+    <string name="ok">OK</string>
+    <string name="am">am</string>
+    <string name="pm">pm</string>
+    <string name="silent">Silenzioso</string>
+    <string name="default_sound_name">Predefinito</string>
+    <string name="default_alarm_label">Sveglia del mattino</string>
+
+    <string name="search_alarms_placeholder">Cerca sveglie…</string>
+    <string name="no_alarms_result">Nessuna sveglia</string>
+
+    <string name="add_city_cd">Aggiungi città</string>
+    <string name="local_time">Ora locale</string>
+    <string name="add_now">Aggiungi ora</string>
+    <string name="add_now_desc">un altro orologio mondiale usando il pulsante + qui sopra !!</string>
+    <string name="remove_cd">Rimuovi</string>
+    <string name="city_country_region">Città / Paese / Regione</string>
+
+    <string name="stopwatch_title">Cronometro</string>
+    <string name="lap_cd">Giro</string>
+    <string name="reset_cd">Reimposta</string>
+    <string name="pause_cd">Pausa</string>
+    <string name="start_cd">Avvia</string>
+    <string name="lap_label">Giro %1$d</string>
+    <string name="restart_button">Riavvia</string>
+    <string name="stop_button">Stop</string>
+    <string name="lap_column_header">Giro</string>
+    <string name="lap_times_header">Tempi sul giro</string>
+    <string name="overall_time_header">Tempo totale</string>
+
+    <string name="add_preset_timer_cd">Aggiungi timer preimpostato</string>
+    <string name="hours_label">Ore</string>
+    <string name="minutes_label">Minuti</string>
+    <string name="seconds_label">Secondi</string>
+    <string name="edit_button">Modifica</string>
+    <string name="add_button">Aggiungi</string>
+    <string name="start_button">Avvia</string>
+    <string name="add_preset_timer_title">Aggiungi timer preimpostato</string>
+    <string name="edit_preset_timer_title">Modifica timer preimpostato</string>
+    <string name="add_title_placeholder">Aggiungi titolo</string>
+    <string name="delete">Elimina</string>
+    <string name="default_timer_title">Timer</string>
+    <string name="cancel_cd">Annulla</string>
+    <string name="resume_cd">Riprendi</string>
+
+    <string name="app_settings_title">Impostazioni app</string>
+    <string name="section_general">Generale</string>
+    <string name="section_manage_alarm">Gestisci sveglia</string>
+    <string name="section_communicate">Comunica</string>
+    <string name="section_others">Altro</string>
+    <string name="language_label">Lingua</string>
+    <string name="upcoming_alarm_notification_label">Notifica sveglia imminente</string>
+    <string name="on_text">attivo</string>
+    <string name="off_text">disattivo</string>
+    <string name="app_theme_label">Tema app</string>
+    <string name="auto_mode">Modalità automatica</string>
+    <string name="light_mode">Modalità chiara</string>
+    <string name="dark_mode">Modalità scura</string>
+    <string name="privacy_settings_label">Impostazioni privacy</string>
+    <string name="feedback_label">Feedback</string>
+    <string name="privacy_policy_label">Informativa sulla privacy</string>
+    <string name="report_bug_label">Segnala un bug</string>
+    <string name="share_app_label">Condividi app</string>
+    <string name="rate_us_label">Valutaci</string>
+    <string name="share_app_message">Scopri Alarm Clock: %1$s</string>
+    <string name="bug_report_subject">Segnalazione bug</string>
+    <string name="location_permission_label">Autorizzazione posizione</string>
+    <string name="location_permission_desc">Consenti a questa app di usare la posizione del tuo dispositivo per funzioni locali come i suggerimenti dell\'orologio mondiale. Questa app non condivide la tua posizione con terze parti.</string>
+    <string name="rate_dialog_title">Ti piace Clock App?</string>
+    <string name="rate_dialog_message">Se ti piace usare questa sveglia intelligente, dedica un momento a valutarla.</string>
+
+    <string name="change_language_title">Cambia lingua</string>
+
+    <string name="alarm_ring_default_label">Sveglia</string>
+    <string name="snooze">Posticipa</string>
+    <string name="dismiss">Chiudi</string>
+
+    <string name="notif_tap_to_open">Tocca per aprire la tua sveglia</string>
+    <string name="notif_timer_finished_title">%1$s terminato</string>
+    <string name="notif_timer_completed_text">Il tuo timer è terminato</string>
+    <string name="notif_timers_running_one">1 timer in esecuzione</string>
+    <string name="notif_timers_running_many">%1$d timer in esecuzione</string>
+    <string name="notif_starting">Avvio in corso…</string>
+    <string name="channel_alarm_name">Sveglie</string>
+    <string name="channel_alarm_desc">Notifiche suoneria sveglia</string>
+    <string name="channel_timer_name">Timer</string>
+    <string name="channel_timer_desc">Conto alla rovescia dei timer in esecuzione</string>
+</resources>

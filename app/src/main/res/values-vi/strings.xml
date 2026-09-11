@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">Alarm Clock</string>
+
+    <string name="perm_title">Chúng tôi cần quyền của bạn</string>
+    <string name="perm_notification_desc">Chúng tôi yêu cầu quyền truy cập thông báo để gửi cập nhật và cảnh báo kịp thời.</string>
+    <string name="perm_phone_desc">Điều này giúp chúng tôi đánh thức thiết bị của bạn một cách đáng tin cậy và báo thức đúng giờ, ngay cả khi ở chế độ nền.</string>
+    <string name="perm_agree_continue">Đồng ý và tiếp tục</string>
+    <string name="perm_terms_footer">Khi tiếp tục, bạn đồng ý với Chính sách quyền riêng tư và Điều khoản của chúng tôi</string>
+    <string name="consent_title">Sự thoải mái của bạn là ưu tiên hàng đầu!</string>
+    <string name="consent_subtitle">Đảm bảo quyền riêng tư của bạn</string>
+    <string name="consent_body">Tất cả báo thức, đồng hồ thế giới và hẹn giờ của bạn chỉ được lưu trữ trên thiết bị này. Chúng tôi không thu thập hoặc chia sẻ dữ liệu cá nhân của bạn với bất kỳ ai.</string>
+    <string name="consent_accept">ĐỒNG Ý</string>
+    <string name="consent_decline">TỪ CHỐI</string>
+
+    <string name="nav_alarm">Báo thức</string>
+    <string name="nav_world">Thế giới</string>
+    <string name="nav_stop">Bấm giờ</string>
+    <string name="nav_timer">Hẹn giờ</string>
+
+    <string name="search_alarms_cd">Tìm báo thức</string>
+    <string name="settings_cd">Cài đặt</string>
+    <string name="add_alarm_cd">Thêm báo thức</string>
+    <string name="no_alarms_yet">Chưa có báo thức nào.\nNhấn + để thêm.</string>
+    <string name="next_alarm_countdown_hm">Còn %1$d giờ %2$d phút nữa đến báo thức tiếp theo.</string>
+    <string name="next_alarm_countdown_m">Còn %1$d phút nữa đến báo thức tiếp theo.</string>
+
+    <string name="every_day">Mỗi ngày</string>
+    <string-array name="day_short_names">
+        <item>T2</item>
+        <item>T3</item>
+        <item>T4</item>
+        <item>T5</item>
+        <item>T6</item>
+        <item>T7</item>
+        <item>CN</item>
+    </string-array>
+    <string-array name="day_letters">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>CN</item>
+    </string-array>
+
+    <string name="add_alarm_title">Thêm báo thức</string>
+    <string name="edit_alarm_title">Chỉnh sửa báo thức</string>
+    <string name="back_cd">Quay lại</string>
+    <string name="pick_date_cd">Chọn ngày</string>
+    <string name="title_label">Tiêu đề</string>
+    <string name="alarm_sound_label">Âm báo thức</string>
+    <string name="vibration_label">Rung</string>
+    <string name="chime_tone">Âm chuông</string>
+    <string name="cancel">Hủy</string>
+    <string name="save">Lưu</string>
+    <string name="ok">OK</string>
+    <string name="am">am</string>
+    <string name="pm">pm</string>
+    <string name="silent">Im lặng</string>
+    <string name="default_sound_name">Mặc định</string>
+    <string name="default_alarm_label">Báo thức buổi sáng</string>
+
+    <string name="search_alarms_placeholder">Tìm báo thức…</string>
+    <string name="no_alarms_result">Không có báo thức</string>
+
+    <string name="add_city_cd">Thêm thành phố</string>
+    <string name="local_time">Giờ địa phương</string>
+    <string name="add_now">Thêm ngay</string>
+    <string name="add_now_desc">một đồng hồ thế giới khác bằng nút + ở trên !!</string>
+    <string name="remove_cd">Xóa</string>
+    <string name="city_country_region">Thành phố / Quốc gia / Khu vực</string>
+
+    <string name="stopwatch_title">Bấm giờ</string>
+    <string name="lap_cd">Vòng</string>
+    <string name="reset_cd">Đặt lại</string>
+    <string name="pause_cd">Tạm dừng</string>
+    <string name="start_cd">Bắt đầu</string>
+    <string name="lap_label">Vòng %1$d</string>
+    <string name="restart_button">Khởi động lại</string>
+    <string name="stop_button">Dừng</string>
+    <string name="lap_column_header">Vòng</string>
+    <string name="lap_times_header">Thời gian vòng</string>
+    <string name="overall_time_header">Tổng thời gian</string>
+
+    <string name="add_preset_timer_cd">Thêm hẹn giờ có sẵn</string>
+    <string name="hours_label">Giờ</string>
+    <string name="minutes_label">Phút</string>
+    <string name="seconds_label">Giây</string>
+    <string name="edit_button">Sửa</string>
+    <string name="add_button">Thêm</string>
+    <string name="start_button">Bắt đầu</string>
+    <string name="add_preset_timer_title">Thêm hẹn giờ có sẵn</string>
+    <string name="edit_preset_timer_title">Sửa hẹn giờ có sẵn</string>
+    <string name="add_title_placeholder">Thêm tiêu đề</string>
+    <string name="delete">Xóa</string>
+    <string name="default_timer_title">Hẹn giờ</string>
+    <string name="cancel_cd">Hủy</string>
+    <string name="resume_cd">Tiếp tục</string>
+
+    <string name="app_settings_title">Cài đặt ứng dụng</string>
+    <string name="section_general">Chung</string>
+    <string name="section_manage_alarm">Quản lý báo thức</string>
+    <string name="section_communicate">Liên hệ</string>
+    <string name="section_others">Khác</string>
+    <string name="language_label">Ngôn ngữ</string>
+    <string name="upcoming_alarm_notification_label">Thông báo báo thức sắp tới</string>
+    <string name="on_text">bật</string>
+    <string name="off_text">tắt</string>
+    <string name="app_theme_label">Giao diện ứng dụng</string>
+    <string name="auto_mode">Chế độ tự động</string>
+    <string name="light_mode">Chế độ sáng</string>
+    <string name="dark_mode">Chế độ tối</string>
+    <string name="privacy_settings_label">Cài đặt quyền riêng tư</string>
+    <string name="feedback_label">Phản hồi</string>
+    <string name="privacy_policy_label">Chính sách quyền riêng tư</string>
+    <string name="report_bug_label">Báo cáo lỗi</string>
+    <string name="share_app_label">Chia sẻ ứng dụng</string>
+    <string name="rate_us_label">Đánh giá chúng tôi</string>
+    <string name="share_app_message">Hãy xem thử Alarm Clock: %1$s</string>
+    <string name="bug_report_subject">Báo cáo lỗi</string>
+    <string name="location_permission_label">Quyền vị trí</string>
+    <string name="location_permission_desc">Cho phép ứng dụng này sử dụng vị trí thiết bị của bạn cho các tính năng cục bộ như gợi ý Đồng hồ thế giới. Ứng dụng này không chia sẻ vị trí của bạn với bên thứ ba.</string>
+    <string name="rate_dialog_title">Bạn có thích Clock App không?</string>
+    <string name="rate_dialog_message">Nếu bạn thích sử dụng đồng hồ báo thức thông minh này, hãy dành một chút thời gian để đánh giá nó.</string>
+
+    <string name="change_language_title">Đổi ngôn ngữ</string>
+
+    <string name="alarm_ring_default_label">Báo thức</string>
+    <string name="snooze">Báo lại</string>
+    <string name="dismiss">Tắt</string>
+
+    <string name="notif_tap_to_open">Nhấn để mở báo thức của bạn</string>
+    <string name="notif_timer_finished_title">%1$s đã hoàn thành</string>
+    <string name="notif_timer_completed_text">Hẹn giờ của bạn đã hoàn thành</string>
+    <string name="notif_timers_running_one">1 hẹn giờ đang chạy</string>
+    <string name="notif_timers_running_many">%1$d hẹn giờ đang chạy</string>
+    <string name="notif_starting">Đang bắt đầu…</string>
+    <string name="channel_alarm_name">Báo thức</string>
+    <string name="channel_alarm_desc">Thông báo chuông báo thức</string>
+    <string name="channel_timer_name">Hẹn giờ</string>
+    <string name="channel_timer_desc">Đếm ngược của hẹn giờ đang chạy</string>
+</resources>

@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">Alarm Clock</string>
+
+    <string name="perm_title">เราต้องการสิทธิ์การเข้าถึงของคุณ</string>
+    <string name="perm_notification_desc">เราขอสิทธิ์การแจ้งเตือนเพื่อส่งข้อมูลอัปเดตและการแจ้งเตือนได้ทันเวลา</string>
+    <string name="perm_phone_desc">สิ่งนี้ช่วยให้เราปลุกอุปกรณ์ของคุณได้อย่างน่าเชื่อถือและส่งเสียงปลุกตรงเวลา แม้จะทำงานอยู่เบื้องหลัง</string>
+    <string name="perm_agree_continue">ยอมรับและดำเนินการต่อ</string>
+    <string name="perm_terms_footer">การดำเนินการต่อถือว่าคุณยอมรับนโยบายความเป็นส่วนตัวและข้อกำหนดของเรา</string>
+    <string name="consent_title">ความสบายใจของคุณคือสิ่งสำคัญอันดับแรก!</string>
+    <string name="consent_subtitle">การรับประกันความเป็นส่วนตัวของคุณ</string>
+    <string name="consent_body">นาฬิกาปลุก นาฬิกาโลก และตัวจับเวลาทั้งหมดของคุณจะถูกเก็บไว้บนอุปกรณ์นี้เท่านั้น เราไม่เก็บรวบรวมหรือแบ่งปันข้อมูลส่วนบุคคลของคุณกับใคร</string>
+    <string name="consent_accept">ยอมรับ</string>
+    <string name="consent_decline">ปฏิเสธ</string>
+
+    <string name="nav_alarm">ปลุก</string>
+    <string name="nav_world">โลก</string>
+    <string name="nav_stop">จับเวลา</string>
+    <string name="nav_timer">ตัวจับเวลา</string>
+
+    <string name="search_alarms_cd">ค้นหานาฬิกาปลุก</string>
+    <string name="settings_cd">การตั้งค่า</string>
+    <string name="add_alarm_cd">เพิ่มการปลุก</string>
+    <string name="no_alarms_yet">ยังไม่มีการปลุก\nแตะ + เพื่อเพิ่ม</string>
+    <string name="next_alarm_countdown_hm">เหลือเวลาอีก %1$d ชั่วโมง %2$d นาที ก่อนการปลุกครั้งถัดไป</string>
+    <string name="next_alarm_countdown_m">เหลือเวลาอีก %1$d นาที ก่อนการปลุกครั้งถัดไป</string>
+
+    <string name="every_day">ทุกวัน</string>
+    <string-array name="day_short_names">
+        <item>จ.</item>
+        <item>อ.</item>
+        <item>พ.</item>
+        <item>พฤ.</item>
+        <item>ศ.</item>
+        <item>ส.</item>
+        <item>อา.</item>
+    </string-array>
+    <string-array name="day_letters">
+        <item>จ</item>
+        <item>อ</item>
+        <item>พ</item>
+        <item>พฤ</item>
+        <item>ศ</item>
+        <item>ส</item>
+        <item>อา</item>
+    </string-array>
+
+    <string name="add_alarm_title">เพิ่มการปลุก</string>
+    <string name="edit_alarm_title">แก้ไขการปลุก</string>
+    <string name="back_cd">ย้อนกลับ</string>
+    <string name="pick_date_cd">เลือกวันที่</string>
+    <string name="title_label">ชื่อเรื่อง</string>
+    <string name="alarm_sound_label">เสียงปลุก</string>
+    <string name="vibration_label">การสั่น</string>
+    <string name="chime_tone">เสียงระฆัง</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="save">บันทึก</string>
+    <string name="ok">ตกลง</string>
+    <string name="am">am</string>
+    <string name="pm">pm</string>
+    <string name="silent">ปิดเสียง</string>
+    <string name="default_sound_name">ค่าเริ่มต้น</string>
+    <string name="default_alarm_label">ปลุกตอนเช้า</string>
+
+    <string name="search_alarms_placeholder">ค้นหานาฬิกาปลุก…</string>
+    <string name="no_alarms_result">ไม่มีนาฬิกาปลุก</string>
+
+    <string name="add_city_cd">เพิ่มเมือง</string>
+    <string name="local_time">เวลาท้องถิ่น</string>
+    <string name="add_now">เพิ่มตอนนี้</string>
+    <string name="add_now_desc">นาฬิกาโลกอีกเรือนโดยใช้ปุ่ม + ด้านบน !!</string>
+    <string name="remove_cd">ลบ</string>
+    <string name="city_country_region">เมือง / ประเทศ / ภูมิภาค</string>
+
+    <string name="stopwatch_title">นาฬิกาจับเวลา</string>
+    <string name="lap_cd">รอบ</string>
+    <string name="reset_cd">รีเซ็ต</string>
+    <string name="pause_cd">หยุดชั่วคราว</string>
+    <string name="start_cd">เริ่ม</string>
+    <string name="lap_label">รอบ %1$d</string>
+    <string name="restart_button">เริ่มใหม่</string>
+    <string name="stop_button">หยุด</string>
+    <string name="lap_column_header">รอบ</string>
+    <string name="lap_times_header">เวลาต่อรอบ</string>
+    <string name="overall_time_header">เวลารวม</string>
+
+    <string name="add_preset_timer_cd">เพิ่มตัวจับเวลาที่ตั้งไว้ล่วงหน้า</string>
+    <string name="hours_label">ชั่วโมง</string>
+    <string name="minutes_label">นาที</string>
+    <string name="seconds_label">วินาที</string>
+    <string name="edit_button">แก้ไข</string>
+    <string name="add_button">เพิ่ม</string>
+    <string name="start_button">เริ่ม</string>
+    <string name="add_preset_timer_title">เพิ่มตัวจับเวลาที่ตั้งไว้ล่วงหน้า</string>
+    <string name="edit_preset_timer_title">แก้ไขตัวจับเวลาที่ตั้งไว้ล่วงหน้า</string>
+    <string name="add_title_placeholder">เพิ่มชื่อเรื่อง</string>
+    <string name="delete">ลบ</string>
+    <string name="default_timer_title">ตัวจับเวลา</string>
+    <string name="cancel_cd">ยกเลิก</string>
+    <string name="resume_cd">ดำเนินการต่อ</string>
+
+    <string name="app_settings_title">การตั้งค่าแอป</string>
+    <string name="section_general">ทั่วไป</string>
+    <string name="section_manage_alarm">จัดการการปลุก</string>
+    <string name="section_communicate">การติดต่อ</string>
+    <string name="section_others">อื่นๆ</string>
+    <string name="language_label">ภาษา</string>
+    <string name="upcoming_alarm_notification_label">การแจ้งเตือนนาฬิกาปลุกที่กำลังจะมาถึง</string>
+    <string name="on_text">เปิด</string>
+    <string name="off_text">ปิด</string>
+    <string name="app_theme_label">ธีมแอป</string>
+    <string name="auto_mode">โหมดอัตโนมัติ</string>
+    <string name="light_mode">โหมดสว่าง</string>
+    <string name="dark_mode">โหมดมืด</string>
+    <string name="privacy_settings_label">การตั้งค่าความเป็นส่วนตัว</string>
+    <string name="feedback_label">ข้อเสนอแนะ</string>
+    <string name="privacy_policy_label">นโยบายความเป็นส่วนตัว</string>
+    <string name="report_bug_label">รายงานข้อบกพร่อง</string>
+    <string name="share_app_label">แชร์แอป</string>
+    <string name="rate_us_label">ให้คะแนนเรา</string>
+    <string name="share_app_message">ลองดู Alarm Clock: %1$s</string>
+    <string name="bug_report_subject">รายงานข้อบกพร่อง</string>
+    <string name="location_permission_label">สิทธิ์การเข้าถึงตำแหน่ง</string>
+    <string name="location_permission_desc">อนุญาตให้แอปนี้ใช้ตำแหน่งอุปกรณ์ของคุณสำหรับฟีเจอร์ภายในเครื่อง เช่น คำแนะนำนาฬิกาโลก แอปนี้ไม่แชร์ตำแหน่งของคุณกับบุคคลที่สาม</string>
+    <string name="rate_dialog_title">ชอบ Clock App ไหม?</string>
+    <string name="rate_dialog_message">หากคุณสนุกกับการใช้นาฬิกาปลุกอัจฉริยะนี้ โปรดสละเวลาให้คะแนน</string>
+
+    <string name="change_language_title">เปลี่ยนภาษา</string>
+
+    <string name="alarm_ring_default_label">นาฬิกาปลุก</string>
+    <string name="snooze">เลื่อนปลุก</string>
+    <string name="dismiss">ปิด</string>
+
+    <string name="notif_tap_to_open">แตะเพื่อเปิดการปลุกของคุณ</string>
+    <string name="notif_timer_finished_title">%1$s เสร็จสิ้น</string>
+    <string name="notif_timer_completed_text">ตัวจับเวลาของคุณเสร็จสมบูรณ์แล้ว</string>
+    <string name="notif_timers_running_one">มีตัวจับเวลา 1 ตัวกำลังทำงาน</string>
+    <string name="notif_timers_running_many">มีตัวจับเวลา %1$d ตัวกำลังทำงาน</string>
+    <string name="notif_starting">กำลังเริ่ม…</string>
+    <string name="channel_alarm_name">นาฬิกาปลุก</string>
+    <string name="channel_alarm_desc">การแจ้งเตือนเสียงปลุก</string>
+    <string name="channel_timer_name">ตัวจับเวลา</string>
+    <string name="channel_timer_desc">การนับถอยหลังของตัวจับเวลาที่กำลังทำงาน</string>
+</resources>

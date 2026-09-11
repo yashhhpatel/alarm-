@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">Alarm Clock</string>
+
+    <string name="perm_title">İzinlerinize ihtiyacımız var</string>
+    <string name="perm_notification_desc">Size zamanında güncellemeler ve uyarılar gönderebilmek için bildirim erişimi istiyoruz.</string>
+    <string name="perm_phone_desc">Bu, cihazınızı arka planda bile güvenilir şekilde uyandırmamızı ve alarmları zamanında çalmamızı sağlar.</string>
+    <string name="perm_agree_continue">Kabul Et ve Devam Et</string>
+    <string name="perm_terms_footer">Devam ederek Gizlilik Politikamızı ve Şartlar ve Koşullarımızı kabul etmiş olursunuz</string>
+    <string name="consent_title">Konforunuz her şeyden önce gelir!</string>
+    <string name="consent_subtitle">Gizliliğinizi sağlamak</string>
+    <string name="consent_body">Tüm alarmlarınız, dünya saatleriniz ve zamanlayıcılarınız yalnızca bu cihazda saklanır. Kişisel verilerinizi kimseyle toplamayız veya paylaşmayız.</string>
+    <string name="consent_accept">KABUL ET</string>
+    <string name="consent_decline">REDDET</string>
+
+    <string name="nav_alarm">Alarm</string>
+    <string name="nav_world">Dünya</string>
+    <string name="nav_stop">Kronometre</string>
+    <string name="nav_timer">Zamanlayıcı</string>
+
+    <string name="search_alarms_cd">Alarm ara</string>
+    <string name="settings_cd">Ayarlar</string>
+    <string name="add_alarm_cd">Alarm ekle</string>
+    <string name="no_alarms_yet">Henüz alarm yok.\nEklemek için + simgesine dokunun.</string>
+    <string name="next_alarm_countdown_hm">Bir sonraki alarma %1$d saat %2$d dakika kaldı.</string>
+    <string name="next_alarm_countdown_m">Bir sonraki alarma %1$d dakika kaldı.</string>
+
+    <string name="every_day">Her gün</string>
+    <string-array name="day_short_names">
+        <item>Pzt</item>
+        <item>Sal</item>
+        <item>Çar</item>
+        <item>Per</item>
+        <item>Cum</item>
+        <item>Cmt</item>
+        <item>Paz</item>
+    </string-array>
+    <string-array name="day_letters">
+        <item>P</item>
+        <item>S</item>
+        <item>Ç</item>
+        <item>P</item>
+        <item>C</item>
+        <item>C</item>
+        <item>P</item>
+    </string-array>
+
+    <string name="add_alarm_title">Alarm Ekle</string>
+    <string name="edit_alarm_title">Alarmı Düzenle</string>
+    <string name="back_cd">Geri</string>
+    <string name="pick_date_cd">Tarih seç</string>
+    <string name="title_label">Başlık</string>
+    <string name="alarm_sound_label">Alarm Sesi</string>
+    <string name="vibration_label">Titreşim</string>
+    <string name="chime_tone">Çan tonu</string>
+    <string name="cancel">İptal</string>
+    <string name="save">Kaydet</string>
+    <string name="ok">Tamam</string>
+    <string name="am">öö</string>
+    <string name="pm">ös</string>
+    <string name="silent">Sessiz</string>
+    <string name="default_sound_name">Varsayılan</string>
+    <string name="default_alarm_label">Sabah Alarmı</string>
+
+    <string name="search_alarms_placeholder">Alarm ara…</string>
+    <string name="no_alarms_result">Alarm Yok</string>
+
+    <string name="add_city_cd">Şehir ekle</string>
+    <string name="local_time">Yerel saat</string>
+    <string name="add_now">Şimdi ekle</string>
+    <string name="add_now_desc">yukarıdaki + düğmesini kullanarak başka bir dünya saati !!</string>
+    <string name="remove_cd">Kaldır</string>
+    <string name="city_country_region">Şehir / Ülke / Bölge</string>
+
+    <string name="stopwatch_title">Kronometre</string>
+    <string name="lap_cd">Tur</string>
+    <string name="reset_cd">Sıfırla</string>
+    <string name="pause_cd">Duraklat</string>
+    <string name="start_cd">Başlat</string>
+    <string name="lap_label">Tur %1$d</string>
+    <string name="restart_button">Yeniden başlat</string>
+    <string name="stop_button">Durdur</string>
+    <string name="lap_column_header">Tur</string>
+    <string name="lap_times_header">Tur süresi</string>
+    <string name="overall_time_header">Toplam süre</string>
+
+    <string name="add_preset_timer_cd">Hazır zamanlayıcı ekle</string>
+    <string name="hours_label">Saat</string>
+    <string name="minutes_label">Dakika</string>
+    <string name="seconds_label">Saniye</string>
+    <string name="edit_button">Düzenle</string>
+    <string name="add_button">Ekle</string>
+    <string name="start_button">Başlat</string>
+    <string name="add_preset_timer_title">Hazır zamanlayıcı ekle</string>
+    <string name="edit_preset_timer_title">Hazır zamanlayıcıyı düzenle</string>
+    <string name="add_title_placeholder">Başlık ekle</string>
+    <string name="delete">Sil</string>
+    <string name="default_timer_title">Zamanlayıcı</string>
+    <string name="cancel_cd">İptal</string>
+    <string name="resume_cd">Devam et</string>
+
+    <string name="app_settings_title">Uygulama ayarları</string>
+    <string name="section_general">Genel</string>
+    <string name="section_manage_alarm">Alarmı Yönet</string>
+    <string name="section_communicate">İletişim</string>
+    <string name="section_others">Diğer</string>
+    <string name="language_label">Dil</string>
+    <string name="upcoming_alarm_notification_label">Yaklaşan alarm bildirimi</string>
+    <string name="on_text">açık</string>
+    <string name="off_text">kapalı</string>
+    <string name="app_theme_label">Uygulama Teması</string>
+    <string name="auto_mode">Otomatik Mod</string>
+    <string name="light_mode">Açık Mod</string>
+    <string name="dark_mode">Koyu Mod</string>
+    <string name="privacy_settings_label">Gizlilik Ayarları</string>
+    <string name="feedback_label">Geri Bildirim</string>
+    <string name="privacy_policy_label">Gizlilik Politikası</string>
+    <string name="report_bug_label">Hata Bildir</string>
+    <string name="share_app_label">Uygulamayı Paylaş</string>
+    <string name="rate_us_label">Bizi Değerlendirin</string>
+    <string name="share_app_message">Alarm Clock\'a göz atın: %1$s</string>
+    <string name="bug_report_subject">Hata raporu</string>
+    <string name="location_permission_label">Konum İzni</string>
+    <string name="location_permission_desc">Bu uygulamanın, Dünya Saati önerileri gibi yerel özellikler için cihazınızın konumunu kullanmasına izin verin. Bu uygulama konumunuzu üçüncü taraflarla paylaşmaz.</string>
+    <string name="rate_dialog_title">Clock App\'ı beğendiniz mi?</string>
+    <string name="rate_dialog_message">Bu akıllı çalar saati kullanmaktan keyif alıyorsanız, lütfen bir an ayırıp puanlayın.</string>
+
+    <string name="change_language_title">Dili Değiştir</string>
+
+    <string name="alarm_ring_default_label">Alarm</string>
+    <string name="snooze">Ertele</string>
+    <string name="dismiss">Kapat</string>
+
+    <string name="notif_tap_to_open">Alarmınızı açmak için dokunun</string>
+    <string name="notif_timer_finished_title">%1$s tamamlandı</string>
+    <string name="notif_timer_completed_text">Zamanlayıcınız tamamlandı</string>
+    <string name="notif_timers_running_one">1 zamanlayıcı çalışıyor</string>
+    <string name="notif_timers_running_many">%1$d zamanlayıcı çalışıyor</string>
+    <string name="notif_starting">Başlatılıyor…</string>
+    <string name="channel_alarm_name">Alarmlar</string>
+    <string name="channel_alarm_desc">Alarm çalma bildirimleri</string>
+    <string name="channel_timer_name">Zamanlayıcılar</string>
+    <string name="channel_timer_desc">Çalışan zamanlayıcıların geri sayımı</string>
+</resources>

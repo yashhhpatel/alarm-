@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">Alarm Clock</string>
+
+    <string name="perm_title">نحتاج إلى أذوناتك</string>
+    <string name="perm_notification_desc">نطلب الوصول إلى الإشعارات لإرسال التحديثات والتنبيهات في الوقت المناسب.</string>
+    <string name="perm_phone_desc">يتيح لنا هذا إيقاظ جهازك بشكل موثوق وتشغيل المنبهات في الوقت المحدد، حتى في الخلفية.</string>
+    <string name="perm_agree_continue">موافقة ومتابعة</string>
+    <string name="perm_terms_footer">بالمتابعة، فإنك توافق على سياسة الخصوصية والشروط والأحكام الخاصة بنا</string>
+    <string name="consent_title">راحتك أولاً!</string>
+    <string name="consent_subtitle">ضمان خصوصيتك</string>
+    <string name="consent_body">يتم تخزين جميع منبهاتك وساعات العالم والمؤقتات على هذا الجهاز فقط. نحن لا نجمع بياناتك الشخصية أو نشاركها مع أي شخص.</string>
+    <string name="consent_accept">قبول</string>
+    <string name="consent_decline">رفض</string>
+
+    <string name="nav_alarm">المنبه</string>
+    <string name="nav_world">العالم</string>
+    <string name="nav_stop">إيقاف</string>
+    <string name="nav_timer">المؤقت</string>
+
+    <string name="search_alarms_cd">البحث عن المنبهات</string>
+    <string name="settings_cd">الإعدادات</string>
+    <string name="add_alarm_cd">إضافة منبه</string>
+    <string name="no_alarms_yet">لا توجد منبهات بعد.\nاضغط على + لإضافة واحد.</string>
+    <string name="next_alarm_countdown_hm">يتبقى %1$d ساعة و %2$d دقيقة حتى المنبه التالي.</string>
+    <string name="next_alarm_countdown_m">يتبقى %1$d دقيقة حتى المنبه التالي.</string>
+
+    <string name="every_day">كل يوم</string>
+    <string-array name="day_short_names">
+        <item>الإثنين</item>
+        <item>الثلاثاء</item>
+        <item>الأربعاء</item>
+        <item>الخميس</item>
+        <item>الجمعة</item>
+        <item>السبت</item>
+        <item>الأحد</item>
+    </string-array>
+    <string-array name="day_letters">
+        <item>ن</item>
+        <item>ث</item>
+        <item>ر</item>
+        <item>خ</item>
+        <item>ج</item>
+        <item>س</item>
+        <item>ح</item>
+    </string-array>
+
+    <string name="add_alarm_title">إضافة منبه</string>
+    <string name="edit_alarm_title">تعديل المنبه</string>
+    <string name="back_cd">رجوع</string>
+    <string name="pick_date_cd">اختيار التاريخ</string>
+    <string name="title_label">العنوان</string>
+    <string name="alarm_sound_label">نغمة المنبه</string>
+    <string name="vibration_label">الاهتزاز</string>
+    <string name="chime_tone">نغمة الجرس</string>
+    <string name="cancel">إلغاء</string>
+    <string name="save">حفظ</string>
+    <string name="ok">موافق</string>
+    <string name="am">ص</string>
+    <string name="pm">م</string>
+    <string name="silent">صامت</string>
+    <string name="default_sound_name">افتراضي</string>
+    <string name="default_alarm_label">منبه الصباح</string>
+
+    <string name="search_alarms_placeholder">البحث عن المنبهات…</string>
+    <string name="no_alarms_result">لا توجد منبهات</string>
+
+    <string name="add_city_cd">إضافة مدينة</string>
+    <string name="local_time">التوقيت المحلي</string>
+    <string name="add_now">إضافة الآن</string>
+    <string name="add_now_desc">ساعة عالمية أخرى باستخدام زر + أعلاه !!</string>
+    <string name="remove_cd">إزالة</string>
+    <string name="city_country_region">المدينة / الدولة / المنطقة</string>
+
+    <string name="stopwatch_title">ساعة الإيقاف</string>
+    <string name="lap_cd">لفة</string>
+    <string name="reset_cd">إعادة تعيين</string>
+    <string name="pause_cd">إيقاف مؤقت</string>
+    <string name="start_cd">بدء</string>
+    <string name="lap_label">لفة %1$d</string>
+    <string name="restart_button">إعادة التشغيل</string>
+    <string name="stop_button">إيقاف</string>
+    <string name="lap_column_header">اللفة</string>
+    <string name="lap_times_header">أوقات اللفات</string>
+    <string name="overall_time_header">الوقت الإجمالي</string>
+
+    <string name="add_preset_timer_cd">إضافة مؤقت جاهز</string>
+    <string name="hours_label">ساعات</string>
+    <string name="minutes_label">دقائق</string>
+    <string name="seconds_label">ثوانٍ</string>
+    <string name="edit_button">تعديل</string>
+    <string name="add_button">إضافة</string>
+    <string name="start_button">بدء</string>
+    <string name="add_preset_timer_title">إضافة مؤقت جاهز</string>
+    <string name="edit_preset_timer_title">تعديل المؤقت الجاهز</string>
+    <string name="add_title_placeholder">إضافة عنوان</string>
+    <string name="delete">حذف</string>
+    <string name="default_timer_title">مؤقت</string>
+    <string name="cancel_cd">إلغاء</string>
+    <string name="resume_cd">استئناف</string>
+
+    <string name="app_settings_title">إعدادات التطبيق</string>
+    <string name="section_general">عام</string>
+    <string name="section_manage_alarm">إدارة المنبهات</string>
+    <string name="section_communicate">التواصل</string>
+    <string name="section_others">أخرى</string>
+    <string name="language_label">اللغة</string>
+    <string name="upcoming_alarm_notification_label">إشعار المنبه القادم</string>
+    <string name="on_text">تشغيل</string>
+    <string name="off_text">إيقاف</string>
+    <string name="app_theme_label">مظهر التطبيق</string>
+    <string name="auto_mode">الوضع التلقائي</string>
+    <string name="light_mode">الوضع الفاتح</string>
+    <string name="dark_mode">الوضع الداكن</string>
+    <string name="privacy_settings_label">إعدادات الخصوصية</string>
+    <string name="feedback_label">الملاحظات</string>
+    <string name="privacy_policy_label">سياسة الخصوصية</string>
+    <string name="report_bug_label">الإبلاغ عن خطأ</string>
+    <string name="share_app_label">مشاركة التطبيق</string>
+    <string name="rate_us_label">قيّمنا</string>
+    <string name="share_app_message">جرب تطبيق Alarm Clock: %1$s</string>
+    <string name="bug_report_subject">تقرير خطأ</string>
+    <string name="location_permission_label">إذن الموقع</string>
+    <string name="location_permission_desc">اسمح لهذا التطبيق باستخدام موقع جهازك لميزات محلية مثل اقتراحات الساعة العالمية. هذا التطبيق لا يشارك موقعك مع أطراف ثالثة.</string>
+    <string name="rate_dialog_title">هل أعجبك تطبيق الساعة؟</string>
+    <string name="rate_dialog_message">إذا كنت تستمتع باستخدام منبه ذكي، يرجى تخصيص لحظة لتقييمه.</string>
+
+    <string name="change_language_title">تغيير اللغة</string>
+
+    <string name="alarm_ring_default_label">منبه</string>
+    <string name="snooze">غفوة</string>
+    <string name="dismiss">إغلاق</string>
+
+    <string name="notif_tap_to_open">اضغط لفتح منبهك</string>
+    <string name="notif_timer_finished_title">انتهى %1$s</string>
+    <string name="notif_timer_completed_text">اكتمل المؤقت الخاص بك</string>
+    <string name="notif_timers_running_one">يعمل مؤقت واحد</string>
+    <string name="notif_timers_running_many">تعمل %1$d مؤقتات</string>
+    <string name="notif_starting">جارٍ البدء…</string>
+    <string name="channel_alarm_name">المنبهات</string>
+    <string name="channel_alarm_desc">إشعارات رنين المنبه</string>
+    <string name="channel_timer_name">المؤقتات</string>
+    <string name="channel_timer_desc">العد التنازلي للمؤقتات النشطة</string>
+</resources>

@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">Alarm Clock</string>
+
+    <string name="perm_title">権限が必要です</string>
+    <string name="perm_notification_desc">タイムリーな更新やアラートをお届けするために、通知へのアクセスをお願いします。</string>
+    <string name="perm_phone_desc">これにより、バックグラウンドでもデバイスを確実に起動し、時間通りにアラームを鳴らすことができます。</string>
+    <string name="perm_agree_continue">同意して続行</string>
+    <string name="perm_terms_footer">続行すると、プライバシーポリシーと利用規約に同意したことになります</string>
+    <string name="consent_title">お客様の快適さを第一に考えます！</string>
+    <string name="consent_subtitle">プライバシーの保護</string>
+    <string name="consent_body">すべてのアラーム、世界時計、タイマーはこのデバイスにのみ保存されます。個人データを収集したり、誰かと共有したりすることはありません。</string>
+    <string name="consent_accept">同意する</string>
+    <string name="consent_decline">拒否する</string>
+
+    <string name="nav_alarm">アラーム</string>
+    <string name="nav_world">世界時計</string>
+    <string name="nav_stop">ストップウォッチ</string>
+    <string name="nav_timer">タイマー</string>
+
+    <string name="search_alarms_cd">アラームを検索</string>
+    <string name="settings_cd">設定</string>
+    <string name="add_alarm_cd">アラームを追加</string>
+    <string name="no_alarms_yet">まだアラームがありません。\n+をタップして追加してください。</string>
+    <string name="next_alarm_countdown_hm">次のアラームまであと %1$d 時間 %2$d 分です。</string>
+    <string name="next_alarm_countdown_m">次のアラームまであと %1$d 分です。</string>
+
+    <string name="every_day">毎日</string>
+    <string-array name="day_short_names">
+        <item>月</item>
+        <item>火</item>
+        <item>水</item>
+        <item>木</item>
+        <item>金</item>
+        <item>土</item>
+        <item>日</item>
+    </string-array>
+    <string-array name="day_letters">
+        <item>月</item>
+        <item>火</item>
+        <item>水</item>
+        <item>木</item>
+        <item>金</item>
+        <item>土</item>
+        <item>日</item>
+    </string-array>
+
+    <string name="add_alarm_title">アラームを追加</string>
+    <string name="edit_alarm_title">アラームを編集</string>
+    <string name="back_cd">戻る</string>
+    <string name="pick_date_cd">日付を選択</string>
+    <string name="title_label">タイトル</string>
+    <string name="alarm_sound_label">アラーム音</string>
+    <string name="vibration_label">バイブレーション</string>
+    <string name="chime_tone">チャイム音</string>
+    <string name="cancel">キャンセル</string>
+    <string name="save">保存</string>
+    <string name="ok">OK</string>
+    <string name="am">午前</string>
+    <string name="pm">午後</string>
+    <string name="silent">サイレント</string>
+    <string name="default_sound_name">デフォルト</string>
+    <string name="default_alarm_label">朝のアラーム</string>
+
+    <string name="search_alarms_placeholder">アラームを検索…</string>
+    <string name="no_alarms_result">アラームはありません</string>
+
+    <string name="add_city_cd">都市を追加</string>
+    <string name="local_time">現地時間</string>
+    <string name="add_now">今すぐ追加</string>
+    <string name="add_now_desc">上の＋ボタンを使ってもう一つ世界時計を追加！！</string>
+    <string name="remove_cd">削除</string>
+    <string name="city_country_region">都市 / 国 / 地域</string>
+
+    <string name="stopwatch_title">ストップウォッチ</string>
+    <string name="lap_cd">ラップ</string>
+    <string name="reset_cd">リセット</string>
+    <string name="pause_cd">一時停止</string>
+    <string name="start_cd">開始</string>
+    <string name="lap_label">ラップ %1$d</string>
+    <string name="restart_button">リスタート</string>
+    <string name="stop_button">ストップ</string>
+    <string name="lap_column_header">ラップ</string>
+    <string name="lap_times_header">ラップタイム</string>
+    <string name="overall_time_header">合計タイム</string>
+
+    <string name="add_preset_timer_cd">プリセットタイマーを追加</string>
+    <string name="hours_label">時間</string>
+    <string name="minutes_label">分</string>
+    <string name="seconds_label">秒</string>
+    <string name="edit_button">編集</string>
+    <string name="add_button">追加</string>
+    <string name="start_button">開始</string>
+    <string name="add_preset_timer_title">プリセットタイマーを追加</string>
+    <string name="edit_preset_timer_title">プリセットタイマーを編集</string>
+    <string name="add_title_placeholder">タイトルを追加</string>
+    <string name="delete">削除</string>
+    <string name="default_timer_title">タイマー</string>
+    <string name="cancel_cd">キャンセル</string>
+    <string name="resume_cd">再開</string>
+
+    <string name="app_settings_title">アプリ設定</string>
+    <string name="section_general">一般</string>
+    <string name="section_manage_alarm">アラームの管理</string>
+    <string name="section_communicate">お問い合わせ</string>
+    <string name="section_others">その他</string>
+    <string name="language_label">言語</string>
+    <string name="upcoming_alarm_notification_label">次回のアラーム通知</string>
+    <string name="on_text">オン</string>
+    <string name="off_text">オフ</string>
+    <string name="app_theme_label">アプリのテーマ</string>
+    <string name="auto_mode">自動モード</string>
+    <string name="light_mode">ライトモード</string>
+    <string name="dark_mode">ダークモード</string>
+    <string name="privacy_settings_label">プライバシー設定</string>
+    <string name="feedback_label">フィードバック</string>
+    <string name="privacy_policy_label">プライバシーポリシー</string>
+    <string name="report_bug_label">不具合を報告</string>
+    <string name="share_app_label">アプリを共有</string>
+    <string name="rate_us_label">評価する</string>
+    <string name="share_app_message">Alarm Clockをチェックしてみて: %1$s</string>
+    <string name="bug_report_subject">不具合報告</string>
+    <string name="location_permission_label">位置情報の権限</string>
+    <string name="location_permission_desc">ワールドクロックの提案などのローカル機能のために、このアプリが端末の位置情報を使用することを許可します。このアプリは位置情報を第三者と共有しません。</string>
+    <string name="rate_dialog_title">Clock Appを気に入りましたか?</string>
+    <string name="rate_dialog_message">このスマートアラーム時計を楽しんでいただけたら、ぜひ評価をお願いします。</string>
+
+    <string name="change_language_title">言語を変更</string>
+
+    <string name="alarm_ring_default_label">アラーム</string>
+    <string name="snooze">スヌーズ</string>
+    <string name="dismiss">解除</string>
+
+    <string name="notif_tap_to_open">タップしてアラームを開く</string>
+    <string name="notif_timer_finished_title">%1$s が終了しました</string>
+    <string name="notif_timer_completed_text">タイマーが完了しました</string>
+    <string name="notif_timers_running_one">1個のタイマーが動作中です</string>
+    <string name="notif_timers_running_many">%1$d個のタイマーが動作中です</string>
+    <string name="notif_starting">開始中…</string>
+    <string name="channel_alarm_name">アラーム</string>
+    <string name="channel_alarm_desc">アラーム鳴動通知</string>
+    <string name="channel_timer_name">タイマー</string>
+    <string name="channel_timer_desc">動作中のタイマーのカウントダウン</string>
+</resources>
