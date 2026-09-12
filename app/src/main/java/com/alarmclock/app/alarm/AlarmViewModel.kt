@@ -4,6 +4,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.alarmclock.app.data.local.AlarmEntity
 import com.alarmclock.app.data.repository.AlarmRepository
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
@@ -15,8 +17,7 @@ import kotlinx.coroutines.launch
 data class NextAlarmCountdown(val hours: Int, val minutes: Int)
 
 data class AlarmListUiState(
-    val alarms: List<AlarmEntity> = emptyList(),
-    val nextAlarmCountdown: NextAlarmCountdown? = null
+    val alarms: List<AlarmEntity> = emptyList()
 )
 
 class AlarmViewModel(
@@ -25,13 +26,12 @@ class AlarmViewModel(
 ) : ViewModel() {
 
     val uiState: StateFlow<AlarmListUiState> = repository.observeAll()
-        .map { alarms ->
-            AlarmListUiState(
-                alarms = alarms,
-                nextAlarmCountdown = computeCountdown(alarms)
-            )
-        }
+        .map { alarms -> AlarmListUiState(alarms = alarms) }
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), AlarmListUiState())
+
+    private val _countdownToast = MutableStateFlow<NextAlarmCountdown?>(null)
+    val countdownToast: StateFlow<NextAlarmCountdown?> = _countdownToast
+    private var toastJob: Job? = null
 
     private var searchQuery = MutableStateFlow("")
     val searchResults: StateFlow<List<AlarmEntity>> = combine(repository.observeAll(), searchQuery) { alarms, query ->
@@ -50,7 +50,23 @@ class AlarmViewModel(
         viewModelScope.launch {
             repository.setEnabled(alarm, enabled)
             val updated = alarm.copy(enabled = enabled)
-            if (enabled) scheduler.schedule(updated) else scheduler.cancel(updated)
+            if (enabled) {
+                scheduler.schedule(updated)
+                val alarmsAfterToggle = uiState.value.alarms.map { if (it.id == updated.id) updated else it }
+                showCountdownToast(alarmsAfterToggle)
+            } else {
+                scheduler.cancel(updated)
+            }
+        }
+    }
+
+    private fun showCountdownToast(alarms: List<AlarmEntity>) {
+        val countdown = computeCountdown(alarms) ?: return
+        toastJob?.cancel()
+        _countdownToast.value = countdown
+        toastJob = viewModelScope.launch {
+            delay(2000)
+            _countdownToast.value = null
         }
     }
 

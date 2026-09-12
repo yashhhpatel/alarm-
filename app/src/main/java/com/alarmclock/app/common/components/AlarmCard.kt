@@ -30,6 +30,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.alarmclock.app.R
@@ -94,7 +95,7 @@ fun AlarmCard(
                     .padding(horizontal = 20.dp, vertical = 20.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                Column(modifier = Modifier.weight(1f)) {
+                Column {
                     Text(
                         alarm.label.ifBlank { stringResource(R.string.alarm_ring_default_label) },
                         fontSize = 13.sp,
@@ -104,14 +105,17 @@ fun AlarmCard(
                         formatTime(alarm.hour, alarm.minute),
                         fontSize = 36.sp,
                         fontWeight = FontWeight.Bold,
-                        color = MaterialTheme.colorScheme.onSurface
+                        color = MaterialTheme.colorScheme.onSurface,
+                        maxLines = 1,
+                        softWrap = false,
+                        overflow = TextOverflow.Clip
                     )
                 }
                 Text(
                     AlarmTimeUtils.repeatSummary(context, alarm.repeatDays, alarm.dateMillis),
                     fontSize = 15.sp,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    modifier = Modifier.padding(end = 12.dp)
+                    modifier = Modifier.weight(1f).padding(start = 12.dp, end = 12.dp)
                 )
                 Switch(
                     checked = alarm.enabled,

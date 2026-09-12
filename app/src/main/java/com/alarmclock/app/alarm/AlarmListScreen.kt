@@ -47,6 +47,7 @@ fun AlarmListScreen(
 ) {
     val viewModel = rememberAppViewModel { app -> AlarmViewModel(app.alarmRepository, AlarmScheduler(app)) }
     val state by viewModel.uiState.collectAsState()
+    val countdownToast by viewModel.countdownToast.collectAsState()
 
     Scaffold(
         topBar = {
@@ -95,35 +96,33 @@ fun AlarmListScreen(
                             onDelete = { viewModel.deleteAlarm(alarm) }
                         )
                     }
-                    state.nextAlarmCountdown?.let { countdown ->
-                        item {
-                            val text = if (countdown.hours > 0) {
-                                stringResource(R.string.next_alarm_countdown_hm, countdown.hours, countdown.minutes)
-                            } else {
-                                stringResource(R.string.next_alarm_countdown_m, countdown.minutes)
-                            }
-                            Card(
-                                shape = RoundedCornerShape(16.dp),
-                                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .padding(horizontal = 20.dp, vertical = 6.dp)
-                            ) {
-                                Row(
-                                    modifier = Modifier.padding(16.dp),
-                                    verticalAlignment = Alignment.CenterVertically
-                                ) {
-                                    Icon(
-                                        Icons.Filled.CheckCircle,
-                                        contentDescription = null,
-                                        tint = MaterialTheme.colorScheme.primary,
-                                        modifier = Modifier.height(20.dp)
-                                    )
-                                    Spacer(Modifier.height(0.dp).padding(horizontal = 4.dp))
-                                    Text(text, style = MaterialTheme.typography.bodyMedium)
-                                }
-                            }
-                        }
+                }
+            }
+            countdownToast?.let { countdown ->
+                val text = if (countdown.hours > 0) {
+                    stringResource(R.string.next_alarm_countdown_hm, countdown.hours, countdown.minutes)
+                } else {
+                    stringResource(R.string.next_alarm_countdown_m, countdown.minutes)
+                }
+                Card(
+                    shape = RoundedCornerShape(16.dp),
+                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 20.dp, vertical = 6.dp)
+                ) {
+                    Row(
+                        modifier = Modifier.padding(16.dp),
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Icon(
+                            Icons.Filled.CheckCircle,
+                            contentDescription = null,
+                            tint = MaterialTheme.colorScheme.primary,
+                            modifier = Modifier.height(20.dp)
+                        )
+                        Spacer(Modifier.height(0.dp).padding(horizontal = 4.dp))
+                        Text(text, style = MaterialTheme.typography.bodyMedium)
                     }
                 }
             }
