@@ -91,6 +91,7 @@
     <string name="add_button">追加</string>
     <string name="start_button">開始</string>
     <string name="add_preset_timer_title">プリセットタイマーを追加</string>
+    <string name="duplicate_timer_message">この時間のタイマーはすでに存在します</string>
     <string name="edit_preset_timer_title">プリセットタイマーを編集</string>
     <string name="add_title_placeholder">タイトルを追加</string>
     <string name="delete">削除</string>

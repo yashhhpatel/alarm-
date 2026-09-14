@@ -91,6 +91,7 @@
     <string name="add_button">Aggiungi</string>
     <string name="start_button">Avvia</string>
     <string name="add_preset_timer_title">Aggiungi timer preimpostato</string>
+    <string name="duplicate_timer_message">Esiste già un timer con questa durata</string>
     <string name="edit_preset_timer_title">Modifica timer preimpostato</string>
     <string name="add_title_placeholder">Aggiungi titolo</string>
     <string name="delete">Elimina</string>

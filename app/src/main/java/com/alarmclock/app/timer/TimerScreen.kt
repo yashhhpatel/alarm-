@@ -49,9 +49,11 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import android.widget.Toast
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -81,6 +83,8 @@ fun TimerScreen(onSettings: () -> Unit) {
     var editingPreset by remember { mutableStateOf<TimerPresetEntity?>(null) }
     var selectedPresetId by remember { mutableStateOf<Long?>(null) }
     val defaultTimerTitle = stringResource(R.string.default_timer_title)
+    val duplicateTimerMessage = stringResource(R.string.duplicate_timer_message)
+    val context = LocalContext.current
 
     Scaffold(
         topBar = {
@@ -249,8 +253,16 @@ fun TimerScreen(onSettings: () -> Unit) {
                     TextButton(onClick = { showAddSheet = false }) { Text(stringResource(R.string.cancel)) }
                     TextButton(onClick = {
                         val total = h * 3600L + m * 60L + s
-                        if (total > 0) viewModel.addPreset("", total)
-                        showAddSheet = false
+                        if (total > 0) {
+                            if (presets.any { it.totalSeconds == total }) {
+                                Toast.makeText(context, duplicateTimerMessage, Toast.LENGTH_SHORT).show()
+                            } else {
+                                viewModel.addPreset("", total)
+                                showAddSheet = false
+                            }
+                        } else {
+                            showAddSheet = false
+                        }
                     }) { Text(stringResource(R.string.add_button), fontWeight = FontWeight.Bold) }
                 }
             }

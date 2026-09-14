@@ -100,6 +100,7 @@
     <string name="add_button">Add</string>
     <string name="start_button">Start</string>
     <string name="add_preset_timer_title">Add preset timer</string>
+    <string name="duplicate_timer_message">A timer with this duration already exists</string>
     <string name="edit_preset_timer_title">Edit Preset Timer</string>
     <string name="add_title_placeholder">Add title</string>
     <string name="delete">Delete</string>

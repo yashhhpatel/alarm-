@@ -91,6 +91,7 @@
     <string name="add_button">जोड़ें</string>
     <string name="start_button">शुरू करें</string>
     <string name="add_preset_timer_title">प्रीसेट टाइमर जोड़ें</string>
+    <string name="duplicate_timer_message">इस अवधि का टाइमर पहले से मौजूद है</string>
     <string name="edit_preset_timer_title">प्रीसेट टाइमर संपादित करें</string>
     <string name="add_title_placeholder">शीर्षक जोड़ें</string>
     <string name="delete">हटाएं</string>

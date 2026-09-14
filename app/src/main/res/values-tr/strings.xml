@@ -91,6 +91,7 @@
     <string name="add_button">Ekle</string>
     <string name="start_button">Başlat</string>
     <string name="add_preset_timer_title">Hazır zamanlayıcı ekle</string>
+    <string name="duplicate_timer_message">Bu süreye sahip bir zamanlayıcı zaten var</string>
     <string name="edit_preset_timer_title">Hazır zamanlayıcıyı düzenle</string>
     <string name="add_title_placeholder">Başlık ekle</string>
     <string name="delete">Sil</string>

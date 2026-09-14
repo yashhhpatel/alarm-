@@ -91,6 +91,7 @@
     <string name="add_button">إضافة</string>
     <string name="start_button">بدء</string>
     <string name="add_preset_timer_title">إضافة مؤقت جاهز</string>
+    <string name="duplicate_timer_message">يوجد بالفعل مؤقت بهذه المدة</string>
     <string name="edit_preset_timer_title">تعديل المؤقت الجاهز</string>
     <string name="add_title_placeholder">إضافة عنوان</string>
     <string name="delete">حذف</string>

@@ -91,6 +91,7 @@
     <string name="add_button">Tambah</string>
     <string name="start_button">Mulai</string>
     <string name="add_preset_timer_title">Tambah timer preset</string>
+    <string name="duplicate_timer_message">Timer dengan durasi ini sudah ada</string>
     <string name="edit_preset_timer_title">Edit Timer Preset</string>
     <string name="add_title_placeholder">Tambah judul</string>
     <string name="delete">Hapus</string>

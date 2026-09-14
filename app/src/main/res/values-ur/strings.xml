@@ -91,6 +91,7 @@
     <string name="add_button">شامل کریں</string>
     <string name="start_button">شروع کریں</string>
     <string name="add_preset_timer_title">پہلے سے ترتیب شدہ ٹائمر شامل کریں</string>
+    <string name="duplicate_timer_message">اس دورانیے کا ٹائمر پہلے سے موجود ہے</string>
     <string name="edit_preset_timer_title">پہلے سے ترتیب شدہ ٹائمر میں ترمیم کریں</string>
     <string name="add_title_placeholder">عنوان شامل کریں</string>
     <string name="delete">حذف کریں</string>

@@ -91,6 +91,7 @@
     <string name="add_button">Añadir</string>
     <string name="start_button">Iniciar</string>
     <string name="add_preset_timer_title">Añadir temporizador preestablecido</string>
+    <string name="duplicate_timer_message">Ya existe un temporizador con esta duración</string>
     <string name="edit_preset_timer_title">Editar temporizador preestablecido</string>
     <string name="add_title_placeholder">Añadir título</string>
     <string name="delete">Eliminar</string>

@@ -91,6 +91,7 @@
     <string name="add_button">เพิ่ม</string>
     <string name="start_button">เริ่ม</string>
     <string name="add_preset_timer_title">เพิ่มตัวจับเวลาที่ตั้งไว้ล่วงหน้า</string>
+    <string name="duplicate_timer_message">มีตัวจับเวลาที่มีระยะเวลานี้อยู่แล้ว</string>
     <string name="edit_preset_timer_title">แก้ไขตัวจับเวลาที่ตั้งไว้ล่วงหน้า</string>
     <string name="add_title_placeholder">เพิ่มชื่อเรื่อง</string>
     <string name="delete">ลบ</string>

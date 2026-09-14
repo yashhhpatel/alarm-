@@ -74,6 +74,7 @@ class TimerViewModel(
     fun cancel(id: Long) = TimerController.cancel(appContext, id)
 
     fun addPreset(title: String, totalSeconds: Long) {
+        if (presets.value.any { it.totalSeconds == totalSeconds }) return
         viewModelScope.launch {
             repository.addPreset(TimerPresetEntity(title = title, totalSeconds = totalSeconds, sortOrder = presets.value.size))
         }

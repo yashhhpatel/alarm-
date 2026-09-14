@@ -91,6 +91,7 @@
     <string name="add_button">Добавить</string>
     <string name="start_button">Старт</string>
     <string name="add_preset_timer_title">Добавить готовый таймер</string>
+    <string name="duplicate_timer_message">Таймер с такой продолжительностью уже существует</string>
     <string name="edit_preset_timer_title">Изменить готовый таймер</string>
     <string name="add_title_placeholder">Добавить название</string>
     <string name="delete">Удалить</string>

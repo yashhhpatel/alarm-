@@ -91,6 +91,7 @@
     <string name="add_button">যোগ করুন</string>
     <string name="start_button">শুরু করুন</string>
     <string name="add_preset_timer_title">প্রিসেট টাইমার যোগ করুন</string>
+    <string name="duplicate_timer_message">এই সময়কালের একটি টাইমার ইতিমধ্যে বিদ্যমান</string>
     <string name="edit_preset_timer_title">প্রিসেট টাইমার সম্পাদনা করুন</string>
     <string name="add_title_placeholder">শিরোনাম যোগ করুন</string>
     <string name="delete">মুছুন</string>
