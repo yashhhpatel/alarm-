@@ -58,7 +58,7 @@ class TimerViewModel(
         viewModelScope.launch {
             if (repository.observePresets().first().isEmpty()) {
                 listOf(60L, 180L, 300L).forEachIndexed { index, seconds ->
-                    repository.addPreset(TimerPresetEntity(title = "", totalSeconds = seconds, sortOrder = index))
+                    repository.addPreset(TimerPresetEntity(title = "", totalSeconds = seconds, sortOrder = index, isDefault = true))
                 }
             }
         }

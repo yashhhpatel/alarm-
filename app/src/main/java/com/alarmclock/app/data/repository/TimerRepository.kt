@@ -14,6 +14,7 @@ class TimerRepository(
     suspend fun addPreset(preset: TimerPresetEntity): Long = presetDao.insert(preset)
     suspend fun updatePreset(preset: TimerPresetEntity) = presetDao.update(preset)
     suspend fun deletePreset(preset: TimerPresetEntity) = presetDao.delete(preset)
+    suspend fun deleteNonDefaultPresetsByDuration(totalSeconds: Long) = presetDao.deleteNonDefaultByDuration(totalSeconds)
 
     fun observeActive(): Flow<List<ActiveTimerEntity>> = activeDao.observeAll()
     suspend fun getActive(): List<ActiveTimerEntity> = activeDao.getAll()

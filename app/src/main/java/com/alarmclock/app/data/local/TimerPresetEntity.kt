@@ -8,5 +8,6 @@ data class TimerPresetEntity(
     @PrimaryKey(autoGenerate = true) val id: Long = 0,
     val title: String,
     val totalSeconds: Long,
-    val sortOrder: Int
+    val sortOrder: Int,
+    val isDefault: Boolean = false
 )

@@ -20,4 +20,7 @@ interface TimerPresetDao {
 
     @Delete
     suspend fun delete(preset: TimerPresetEntity)
+
+    @Query("DELETE FROM timer_presets WHERE isDefault = 0 AND totalSeconds = :totalSeconds")
+    suspend fun deleteNonDefaultByDuration(totalSeconds: Long)
 }

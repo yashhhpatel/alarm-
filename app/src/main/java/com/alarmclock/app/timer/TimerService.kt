@@ -133,6 +133,11 @@ class TimerService : Service() {
 
     private suspend fun onTimerComplete(timer: ActiveTimerEntity) {
         app.timerRepository.removeActive(timer)
+        // Custom presets the user added (anything beyond the 3 built-in defaults) are
+        // one-off shortcuts: once a timer started from one finishes, remove that preset
+        // chip too. Matched by duration since that's the only link between a running
+        // timer and the preset it was started from.
+        app.timerRepository.deleteNonDefaultPresetsByDuration(timer.totalMillis / 1000)
         playCompletionAlert(timer.title)
     }
 
