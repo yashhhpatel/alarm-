@@ -275,7 +275,7 @@ private fun SettingsRowSwitch(
 private fun sendFeedbackEmail(context: android.content.Context, subject: String) {
     val intent = Intent(Intent.ACTION_SENDTO).apply {
         data = Uri.parse("mailto:")
-        putExtra(Intent.EXTRA_EMAIL, arrayOf("support@alarmclockapp.example"))
+        putExtra(Intent.EXTRA_EMAIL, arrayOf("aakashmangukiya10@gmail.com"))
         putExtra(Intent.EXTRA_SUBJECT, subject)
     }
     try {
